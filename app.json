@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "PMP Review Guide",
+    "description": "PMP Exam Quick Reference",
+    "slug": "pmp review guide",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/images/logo_white.png",
+    "splash": {
+      "image": "./assets/images/book.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#555555"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
