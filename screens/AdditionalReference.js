@@ -1,27 +1,16 @@
 import React from 'react';
-import { Text, ScrollView, StyleSheet } from 'react-native';
-import Header from '../components/Header';
+import { ScrollView } from 'react-native';
+
 import ReferenceLinksScreen from '../components/ReferenceLinks';
+import Banner from '../components/Banner';
 
 export default class LinksScreen extends React.Component {
-  static navigationOptions = {
-    title:<Header headerText={'PMP Resources & Free Practice Tests'}/>,
-    headerStyle:{ backgroundColor:'#673ab7' }
-  };
-
   render() {
     return (
-      <ScrollView style={styles.container}>
+      <ScrollView style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
+           <Banner headerText={'PMP Resources & Free Practice Tests'}/>
            <ReferenceLinksScreen />
       </ScrollView>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingTop: 15,
-    backgroundColor: '#fff',
-  },
-});

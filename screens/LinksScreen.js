@@ -1,30 +1,16 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { ScrollView } from 'react-native';
 import { ExpoLinksView } from '@expo/samples';
-import Header from '../components/Header';
+
+import Banner from '../components/Banner';
 
 export default class LinksScreen extends React.Component {
-  static navigationOptions = {
-    title:<Header headerText={'PMP Formulas'}/>,
-    headerStyle:{ backgroundColor:'#673ab7' }
-  };
-
   render() {
     return (
-      <ScrollView style={styles.container}>
-        {/* Go ahead and delete ExpoLinksView and replace it with your
-           * content, we just wanted to provide you with some helpful links */}
+      <ScrollView style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
+        <Banner headerText={'PMP Formulas'}/>
         <ExpoLinksView />
-
       </ScrollView>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingTop: 15,
-    backgroundColor: '#fff',
-  },
-});
