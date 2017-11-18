@@ -1,10 +1,9 @@
 import React from 'react';
 import { Platform } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { SimpleLineIcons } from '@expo/vector-icons';
 import { TabNavigator, TabBarBottom } from 'react-navigation';
 
 import Colors from '../constants/Colors';
-
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
 import AdditionalReference from '../screens/AdditionalReference';
@@ -18,7 +17,7 @@ export default TabNavigator(
     Formulas: {
       screen: LinksScreen,
     },
-    Reference: {
+    Documents: {
       screen: AdditionalReference,
     },
     Settings: {
@@ -34,24 +33,24 @@ export default TabNavigator(
           case 'Home':
             iconName =
               Platform.OS === 'ios'
-                ? `ios-home${focused ? '' : '-outline'}`
-                : 'md-home';
+                ? `home`
+                : 'home';
             break;
           case 'Formulas':
-            iconName = Platform.OS === 'ios' ? `ios-calculator${focused ? '' : '-outline'}` : 'md-calculator';
+            iconName = Platform.OS === 'ios' ? 'calculator' : 'calculator';
             break;
-          case 'Reference':
-            iconName = Platform.OS === 'ios' ? `ios-document${focused ? '' : '-outline'}` : 'md-document';
+          case 'Documents':
+            iconName = Platform.OS === 'docs' ? 'docs' : 'docs';
             break;
           case 'Settings':
             iconName =
-              Platform.OS === 'ios' ? `ios-cog${focused ? '' : '-outline'}` : 'md-cog';
+              Platform.OS === 'ios' ? 'settings' : 'settings';
         }
         return (
-          
-          <Ionicons
+
+          <SimpleLineIcons
             name={iconName}
-            size={32}
+            size={26}
             style={{ marginBottom: 1 }}
             color={focused ? Colors.tabIconSelected : Colors.tabIconDefault}
           />
