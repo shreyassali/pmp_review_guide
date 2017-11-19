@@ -16,6 +16,60 @@ const ExampleRoutes = {
     name: 'PROJECT MANAGEMENT FRAMEWORK',
     screen: ProjectMgmtFramework,
   },
+  ProjectMgmtFramework: {
+    name: 'KNOWLEDGE MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+
+  ProjectMgmtFramework: {
+    name: 'INTEGRATION MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+
+  ProjectMgmtFramework: {
+    name: 'SCOPE MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'TIME MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'COST MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'QUALITY MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'HUMAN RESOURCES MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'CONFLICT MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'COMMUNICATIONS MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'RISK MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'PROCURMENT MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'STAKEHOLDER MANAGEMENT',
+    screen: ProjectMgmtFramework,
+  },
+  ProjectMgmtFramework: {
+    name: 'PROFESSIONAL AND SOCIAL RESPONSIBILITY',
+    screen: ProjectMgmtFramework,
+  },
 };
 
 const MainScreen = ({ navigation }) => (
@@ -58,7 +112,7 @@ export default () => <HomeScreen />;
 const styles = StyleSheet.create({
   containerStyle: {
       borderRadius: 3,
-      borderWidth: 1,
+      borderWidth: 2,
       borderColor: '#ddd',
       shadowColor: '#000',
       shadowOffset: { width: 0, height: 3 },
@@ -76,7 +130,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: '200',
     color: '#444',
   },
 });
