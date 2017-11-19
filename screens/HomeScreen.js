@@ -9,7 +9,6 @@ import Card from '../components/Card';
 import Banner from '../components/Banner';
 import ProjectMgmtFramework from '../screens/ProjectMgmtFramework';
 
-
 const ExampleRoutes = {
 
   ProjectMgmtFramework: {

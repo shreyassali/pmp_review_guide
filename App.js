@@ -3,11 +3,31 @@ import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font } from 'expo';
 import { Ionicons } from '@expo/vector-icons';
 import RootNavigation from './navigation/RootNavigation';
+import * as firebase from 'firebase';
+
+// Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyAPKnrvHFlQeHuaRX_jmFWhu9ScZ4sYL04",
+  authDomain: "pmpguide-b8d72.firebaseapp.com",
+  databaseURL: "https://pmpguide-b8d72.firebaseio.com",
+  projectId: "pmpguide-b8d72",
+  storageBucket: "pmpguide-b8d72.appspot.com",
+  messagingSenderId: "323096544554"
+};
 
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false,
   };
+
+  componentWillMount() {
+    firebase.initializeApp(firebaseConfig);
+    //Read from firebase
+    firebase.database().ref('chapterList').once('value').then(function(snapshot) {
+      console.log(snapshot.val());
+    });
+    console.log("Initialized firebase");
+  }
 
   render() {
     if (!this.state.isLoadingComplete && !this.props.skipLoadingScreen) {
