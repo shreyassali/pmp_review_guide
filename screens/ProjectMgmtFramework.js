@@ -1,6 +1,8 @@
 import React from 'react';
-import { Button, ScrollView } from 'react-native';
+import { Button, ScrollView, Platform } from 'react-native';
 import { StackNavigator, SafeAreaView } from 'react-navigation';
+import { Ionicons } from '@expo/vector-icons';
+import Header from '../components/Header';
 
 const MyNavScreen = ({ navigation, banner }) => (
   <SafeAreaView>
@@ -19,6 +21,18 @@ const MyNavScreen = ({ navigation, banner }) => (
 const MyHomeScreen = ({ navigation }) => (
   <MyNavScreen banner="Home Screen" navigation={navigation} />
 );
+
+MyHomeScreen.navigationOptions = props => {
+  const { navigation } = props;
+  const { state, setParams } = navigation;
+  const { params } = state;
+  return {
+    headerTitle:<Header headerText={'PMP Framework Screen'}/>,
+    headerLeft: (
+      <Button title="Back" onPress={() => navigation.goBack(null)} />
+    ),
+  };
+};
 
 const MyPhotosScreen = ({ navigation }) => (
   <MyNavScreen
