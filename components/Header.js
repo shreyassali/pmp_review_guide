@@ -13,7 +13,6 @@ const styles = {
   textStyle: {
     fontSize: 19,
     fontWeight: '200',
-    color: '#fff',
   }
 }
 
