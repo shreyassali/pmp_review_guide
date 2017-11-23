@@ -19,16 +19,7 @@ export default class App extends React.Component {
   state = {
     isLoadingComplete: false,
   };
-
-  componentWillMount() {
-    firebase.initializeApp(firebaseConfig);
-    //Read from firebase
-    firebase.database().ref('chapterList').once('value').then(function(snapshot) {
-      console.log(snapshot.val());
-    });
-    console.log("Initialized firebase");
-  }
-
+  
   render() {
     if (!this.state.isLoadingComplete && !this.props.skipLoadingScreen) {
       return (

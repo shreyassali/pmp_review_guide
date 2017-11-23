@@ -8,6 +8,17 @@ import Header from '../components/Header';
 import Card from '../components/Card';
 import Banner from '../components/Banner';
 import ProjectMgmtFramework from '../screens/ProjectMgmtFramework';
+import * as firebase from 'firebase';
+
+// Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyAPKnrvHFlQeHuaRX_jmFWhu9ScZ4sYL04",
+  authDomain: "pmpguide-b8d72.firebaseapp.com",
+  databaseURL: "https://pmpguide-b8d72.firebaseio.com",
+  projectId: "pmpguide-b8d72",
+  storageBucket: "pmpguide-b8d72.appspot.com",
+  messagingSenderId: "323096544554"
+};
 
 const ExampleRoutes = {
 
@@ -15,83 +26,50 @@ const ExampleRoutes = {
     name: 'PROJECT MANAGEMENT FRAMEWORK',
     screen: ProjectMgmtFramework,
   },
-  ProjectMgmtFramework: {
-    name: 'KNOWLEDGE MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-
-  ProjectMgmtFramework: {
-    name: 'INTEGRATION MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-
-  ProjectMgmtFramework: {
-    name: 'SCOPE MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'TIME MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'COST MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'QUALITY MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'HUMAN RESOURCES MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'CONFLICT MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'COMMUNICATIONS MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'RISK MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'PROCURMENT MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'STAKEHOLDER MANAGEMENT',
-    screen: ProjectMgmtFramework,
-  },
-  ProjectMgmtFramework: {
-    name: 'PROFESSIONAL AND SOCIAL RESPONSIBILITY',
-    screen: ProjectMgmtFramework,
-  },
 };
 
-const MainScreen = ({ navigation }) => (
-  <ScrollView style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
-    <Banner headerText={'PMP Quick Reference Guide'}/>
-    {Object.keys(ExampleRoutes).map((routeName: string) => (
-      <TouchableOpacity key={routeName}
-        onPress={() => {
-          const { path, params, screen } = ExampleRoutes[routeName];
-          const { router } = screen;
-          const action = path && router.getActionForPathAndParams(path, params);
-          navigation.navigate(routeName, {}, action);
-        }}
-        >
-        <SafeAreaView style={styles.itemContainer} forceInset={{ vertical: 'never' }}>
-          <View style={styles.containerStyle}>
-            <Text style={styles.title}>{ExampleRoutes[routeName].name}</Text>
-          </View>
-        </SafeAreaView>
-      </TouchableOpacity>
-    ))}
-  </ScrollView>
-);
+class MainScreen extends React.Component {
+  state = {
+    isLoadingComplete: false,
+  };
+
+  static navigationOptions = ({ navigation, screenProps }) => ({
+
+  });
+
+  componentWillMount() {
+    firebase.initializeApp(firebaseConfig);
+    //Read from firebase
+    var chapterNames = [];
+    firebase.database().ref('chapterList').once('value').then(function(snapshot) {
+      snapshot.forEach(function(childSnapshot) {
+        var childKey = childSnapshot.key;
+        console.log(childKey);
+        var childData = childSnapshot.val();
+        //console.log(childData);
+        var chname = childData.name;
+        chapterNames.push({chname});
+      });
+    });
+  }
+
+  render() {
+    return (
+      <ScrollView style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
+        <Banner headerText={'PMP Quick Reference Guide'}/>
+        {Object.keys(ExampleRoutes).map((routeName: string) => (
+          <TouchableOpacity key={routeName}>
+            <SafeAreaView style={styles.itemContainer} forceInset={{ vertical: 'never' }}>
+              <View style={styles.containerStyle}>
+                <Text style={styles.title}>{ExampleRoutes[routeName].name}</Text>
+              </View>
+            </SafeAreaView>
+          </TouchableOpacity>
+        ))}
+      </ScrollView>
+    );
+  }
+}
 
 const HomeScreen = StackNavigator(
   {
