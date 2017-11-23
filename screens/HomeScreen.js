@@ -1,88 +1,66 @@
 import React from 'react';
-import { Platform, ScrollView, StyleSheet, Text, TouchableOpacity, View, } from 'react-native';
+import { Platform, StyleSheet,
+  Text, TouchableOpacity, View, FlatList } from 'react-native';
 import { SafeAreaView, StackNavigator } from 'react-navigation';
-
-import { WebBrowser } from 'expo';
-import { MonoText } from '../components/StyledText';
-import Header from '../components/Header';
-import Card from '../components/Card';
 import Banner from '../components/Banner';
-import ProjectMgmtFramework from '../screens/ProjectMgmtFramework';
-import * as firebase from 'firebase';
+import firebase from 'firebase';
+import { Card, CardItem, Body } from 'native-base';
 
-// Initialize Firebase
-const firebaseConfig = {
-  apiKey: "AIzaSyAPKnrvHFlQeHuaRX_jmFWhu9ScZ4sYL04",
-  authDomain: "pmpguide-b8d72.firebaseapp.com",
-  databaseURL: "https://pmpguide-b8d72.firebaseio.com",
-  projectId: "pmpguide-b8d72",
-  storageBucket: "pmpguide-b8d72.appspot.com",
-  messagingSenderId: "323096544554"
-};
-
-const ExampleRoutes = {
-
-  ProjectMgmtFramework: {
-    name: 'PROJECT MANAGEMENT FRAMEWORK',
-    screen: ProjectMgmtFramework,
-  },
-};
-
-class MainScreen extends React.Component {
+class HomeScreen extends React.Component {
   state = {
     isLoadingComplete: false,
+    chapterList: null,
   };
 
   static navigationOptions = ({ navigation, screenProps }) => ({
 
   });
 
-  componentWillMount() {
-    firebase.initializeApp(firebaseConfig);
+  componentDidMount() {
+    if(this.state.isLoadingComplete) {
+      return;
+    }
     //Read from firebase
-    var chapterNames = [];
+    var chapterList = [];
     firebase.database().ref('chapterList').once('value').then(function(snapshot) {
       snapshot.forEach(function(childSnapshot) {
-        var childKey = childSnapshot.key;
-        console.log(childKey);
-        var childData = childSnapshot.val();
-        //console.log(childData);
-        var chname = childData.name;
-        chapterNames.push({chname});
+        var chapter = childSnapshot.val();
+        chapter.id = childSnapshot.key;
+        console.log(chapter);
+        chapterList.push(chapter);
       });
-    });
+      return chapterList;
+    }).then((chapterList) => this.setState({isLoadingComplete: true,
+                  chapterList: chapterList}));
   }
+
+  _renderItem = ({item}) => (
+      <Card>
+        <CardItem>
+          <Body>
+            <Text>
+               {item.name}
+            </Text>
+          </Body>
+        </CardItem>
+      </Card>
+  );
+
+_keyExtractor = (item, index) => item.id;
 
   render() {
     return (
-      <ScrollView style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
+      <View style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
         <Banner headerText={'PMP Quick Reference Guide'}/>
-        {Object.keys(ExampleRoutes).map((routeName: string) => (
-          <TouchableOpacity key={routeName}>
-            <SafeAreaView style={styles.itemContainer} forceInset={{ vertical: 'never' }}>
-              <View style={styles.containerStyle}>
-                <Text style={styles.title}>{ExampleRoutes[routeName].name}</Text>
-              </View>
-            </SafeAreaView>
-          </TouchableOpacity>
-        ))}
-      </ScrollView>
+        <FlatList
+          data={this.state.chapterList}
+          keyExtractor={this._keyExtractor}
+          renderItem={this._renderItem}
+        />
+      </View>
     );
   }
 }
-
-const HomeScreen = StackNavigator(
-  {
-    ...ExampleRoutes,
-    Index: {
-      screen: MainScreen,
-    },
-  },
-  {
-    initialRouteName: 'Index',
-    headerMode: 'none',
-  },
-);
 
 export default () => <HomeScreen />;
 
