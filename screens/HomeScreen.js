@@ -36,9 +36,9 @@ class HomeScreen extends React.Component {
 
   _renderItem = ({item}) => (
       <Card>
-        <CardItem>
+        <CardItem style={styles.containerStyle}>
           <Body>
-            <Text>
+            <Text style={styles.title}>
                {item.name}
             </Text>
           </Body>
@@ -76,15 +76,14 @@ const styles = StyleSheet.create({
       marginLeft: 10,
       marginTop: 10,
       marginRight: 10,
-      paddingVertical: 20,
-      alignItems: 'center'
-  },
-  item: {
-    paddingHorizontal: 16,
-    paddingVertical: 12,
+      marginBottom: 10,
+      paddingHorizontal: 16,
+      paddingVertical: 12,
+      alignItems: 'center',
+      justifyContent: 'center',
   },
   title: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: '200',
     color: '#444',
   },
