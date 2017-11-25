@@ -10,6 +10,7 @@ class HomeScreen extends React.Component {
   state = {
     isLoadingComplete: false,
     chapterList: null,
+    selected: (new Map(): Map<string, boolean>),
   };
 
   static navigationOptions = ({ navigation, screenProps }) => ({
@@ -34,10 +35,14 @@ class HomeScreen extends React.Component {
                   chapterList: chapterList}));
   }
 
+  _onPress = () => {
+    console.log("Shreyas Hello");
+  };
+
   _renderItem = ({item}) => (
-      <Card style={styles.containerStyle}>
-        <CardItem>
-          <Body>
+      <Card style={styles.containerStyle} >
+        <CardItem button onPress={() => this._onPress()}>
+            <Body>
             <Text style={styles.title}>
                {item.name}
             </Text>
