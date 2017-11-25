@@ -1,12 +1,9 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
-import ReferenceLinksScreen from '../components/ReferenceLinks';
-import Banner from '../components/Banner';
-import { Platform, StyleSheet, View, FlatList } from 'react-native';
 import firebase from 'firebase';
-import { Container, Header, Content, List, ListItem, Text } from 'native-base';
 import Touchable from 'react-native-platform-touchable';
+import { Platform, StyleSheet, View, FlatList, Text } from 'react-native';
 import { WebBrowser } from 'expo';
+import Banner from '../components/Banner';
 
 
 class LinksScreen extends React.Component {
