@@ -5,6 +5,8 @@ import Banner from '../components/Banner';
 import { Platform, StyleSheet, View, FlatList } from 'react-native';
 import firebase from 'firebase';
 import { Container, Header, Content, List, ListItem, Text } from 'native-base';
+import Touchable from 'react-native-platform-touchable';
+import { WebBrowser } from 'expo';
 
 
 class LinksScreen extends React.Component {
@@ -35,9 +37,17 @@ class LinksScreen extends React.Component {
   }
 
   _renderItem = ({item}) => (
-    <View style={styles.option}>
-      <Text style={styles.optionText}> {item.name} </Text>
-    </View>
+
+    <Touchable
+      style={styles.option}
+      background={Touchable.Ripple('#ccc', false)}
+      onPress={() => _handleOnPress(item)}>
+        <View>
+          <Text style={styles.optionText}>
+            {item.name}
+          </Text>
+      </View>
+    </Touchable>
   );
 
 _keyExtractor = (item, index) => item.id;
@@ -54,6 +64,10 @@ _keyExtractor = (item, index) => item.id;
     );
   }
 }
+
+_handleOnPress = (item) => {
+  WebBrowser.openBrowserAsync(item.url);
+};
 
 export default () => <LinksScreen />;
 
