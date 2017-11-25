@@ -1,6 +1,5 @@
 import React from 'react';
 import firebase from 'firebase';
-import Touchable from 'react-native-platform-touchable';
 import { Platform, StyleSheet, View, FlatList } from 'react-native';
 import { WebBrowser } from 'expo';
 import Banner from '../components/Banner';
