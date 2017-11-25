@@ -1,9 +1,12 @@
 import React from 'react';
 import firebase from 'firebase';
 import Touchable from 'react-native-platform-touchable';
-import { Platform, StyleSheet, View, FlatList, Text } from 'react-native';
+import { Platform, StyleSheet, View, FlatList } from 'react-native';
 import { WebBrowser } from 'expo';
 import Banner from '../components/Banner';
+import { List, ListItem, Text, Icon } from 'native-base';
+import { MaterialIcons } from '@expo/vector-icons';
+
 
 
 class LinksScreen extends React.Component {
@@ -34,17 +37,12 @@ class LinksScreen extends React.Component {
   }
 
   _renderItem = ({item}) => (
-
-    <Touchable
-      style={styles.option}
-      background={Touchable.Ripple('#ccc', false)}
-      onPress={() => _handleOnPress(item)}>
-        <View>
-          <Text style={styles.optionText}>
-            {item.name}
-          </Text>
-      </View>
-    </Touchable>
+        <List>
+            <ListItem button onPress={() => _handleOnPress(item)}>
+                <MaterialIcons name="question-answer" size={27} color="#8e6de3" />
+                <Text>{item.name}</Text>
+            </ListItem>
+       </List>
   );
 
 _keyExtractor = (item, index) => item.id;
