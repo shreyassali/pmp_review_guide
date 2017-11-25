@@ -35,8 +35,8 @@ class HomeScreen extends React.Component {
   }
 
   _renderItem = ({item}) => (
-      <Card>
-        <CardItem style={styles.containerStyle}>
+      <Card style={styles.containerStyle}>
+        <CardItem>
           <Body>
             <Text style={styles.title}>
                {item.name}
@@ -50,7 +50,7 @@ _keyExtractor = (item, index) => item.id;
 
   render() {
     return (
-      <View style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
+      <View style={{ flex: 1, backgroundColor: 'white' }} contentInsetAdjustmentBehavior="automatic">
         <Banner headerText={'PMP Quick Reference Guide'}/>
         <FlatList
           data={this.state.chapterList}
@@ -66,19 +66,12 @@ export default () => <HomeScreen />;
 
 const styles = StyleSheet.create({
   containerStyle: {
-      borderRadius: 3,
-      borderWidth: 2,
-      borderColor: '#ddd',
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 3 },
-      shadowOpacity: 0.1,
-      shadowRadius: 3,
       marginLeft: 10,
-      marginTop: 10,
       marginRight: 10,
-      marginBottom: 10,
-      paddingHorizontal: 16,
-      paddingVertical: 12,
+      marginTop: 7,
+      marginBottom: 7,
+      paddingHorizontal: 12,
+      paddingVertical: 10,
       alignItems: 'center',
       justifyContent: 'center',
   },
