@@ -1,9 +1,8 @@
 import React from 'react';
-import { Platform, StyleSheet, View, FlatList } from 'react-native';
-import Banner from '../components/Banner';
 import firebase from 'firebase';
-import { Container, Header, Content, List, ListItem, Text } from 'native-base';
-
+import { Platform, StyleSheet, View, FlatList } from 'react-native';
+import { List, ListItem, Text, Icon } from 'native-base';
+import Banner from '../components/Banner';
 
 class LinksScreen extends React.Component {
   state = {
@@ -35,9 +34,11 @@ class LinksScreen extends React.Component {
   }
 
   _renderItem = ({item}) => (
-    <View style={styles.option}>
-      <Text style={styles.optionText}> {item.name} </Text>
-    </View>
+    <List>
+        <ListItem button onPress={() => _handleOnPress(item)}>
+            <Text>{item.name}</Text>
+        </ListItem>
+   </List>
   );
 
 _keyExtractor = (item, index) => item.id;
@@ -54,6 +55,10 @@ _keyExtractor = (item, index) => item.id;
     );
   }
 }
+
+_handleOnPress = (item) => {
+  console.log(item.name);
+};
 
 export default () => <LinksScreen />;
 
