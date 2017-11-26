@@ -36,6 +36,7 @@ export default class HomeScreen extends React.Component {
 
   _onPressItem = (id) => {
     console.log('Selected item ' + id);
+    this.props.navigation.navigate('Topics', {chapterId: id});
   };
 
   _renderItem = ({item}) => (
