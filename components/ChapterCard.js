@@ -1,40 +1,40 @@
 import React from 'react';
-import { TextStyleSheet } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { Card, CardItem, Body } from 'native-base';
 
 export default class ChapterCard extends React.Component {
 
-render(props){
-    <Card>
-      <CardItem>
-        <Body style={styles.containerStyle}>
-          <Text style={styles.title}> {this.props.name} </Text>
-        </Body>
-      </CardItem>
-    </Card>
+  _onPress = () => {
+    this.props.onPressItem(this.props.id);
+  };
+
+  render() {
+      console.log('Rendering Chapter Card ' + this.props.name);
+      return(
+        <Card>
+          <CardItem button onPress={this._onPress}>
+            <Body style={styles.containerStyle}>
+              <Text style={styles.title}> {this.props.name} </Text>
+            </Body>
+          </CardItem>
+        </Card>);
   }
 }
 
-export default () => <Card />;
-
-const styles = StyleSheet.create ({
+const styles = StyleSheet.create({
   containerStyle: {
-      borderRadius: 3,
-      borderWidth: 1,
-      borderColor: '#ddd',
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 3 },
-      shadowOpacity: 0.1,
-      shadowRadius: 3,
       marginLeft: 10,
-      marginTop: 10,
       marginRight: 10,
-      paddingVertical: 20,
+      marginTop: 7,
+      marginBottom: 7,
+      paddingHorizontal: 12,
+      paddingVertical: 10,
       alignItems: 'center',
+      justifyContent: 'center',
   },
   title: {
-    fontSize: 16,
-    fontWeight: 'bold',
+    fontSize: 15,
+    fontWeight: '200',
     color: '#444',
   },
 });

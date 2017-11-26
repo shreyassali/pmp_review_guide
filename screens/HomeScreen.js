@@ -4,13 +4,12 @@ import { Platform, StyleSheet,
 import { SafeAreaView, StackNavigator } from 'react-navigation';
 import Banner from '../components/Banner';
 import firebase from 'firebase';
-import { Card, CardItem, Body } from 'native-base';
+import ChapterCard from '../components/ChapterCard';
 
-class HomeScreen extends React.Component {
+export default class HomeScreen extends React.Component {
   state = {
     isLoadingComplete: false,
-    chapterList: null,
-    selected: (new Map(): Map<string, boolean>),
+    chapterList: null
   };
 
   static navigationOptions = ({ navigation, screenProps }) => ({
@@ -35,23 +34,15 @@ class HomeScreen extends React.Component {
                   chapterList: chapterList}));
   }
 
-  _onPress = () => {
-    console.log("Shreyas Hello");
+  _onPressItem = (id) => {
+    console.log('Selected item ' + id);
   };
 
   _renderItem = ({item}) => (
-      <Card style={styles.containerStyle} >
-        <CardItem button onPress={() => this._onPress()}>
-            <Body>
-            <Text style={styles.title}>
-               {item.name}
-            </Text>
-          </Body>
-        </CardItem>
-      </Card>
+    <ChapterCard id={item.id} name={item.name} onPressItem={this._onPressItem} />
   );
 
-_keyExtractor = (item, index) => item.id;
+  _keyExtractor = (item, index) => item.id;
 
   render() {
     return (
@@ -66,23 +57,3 @@ _keyExtractor = (item, index) => item.id;
     );
   }
 }
-
-export default () => <HomeScreen />;
-
-const styles = StyleSheet.create({
-  containerStyle: {
-      marginLeft: 10,
-      marginRight: 10,
-      marginTop: 7,
-      marginBottom: 7,
-      paddingHorizontal: 12,
-      paddingVertical: 10,
-      alignItems: 'center',
-      justifyContent: 'center',
-  },
-  title: {
-    fontSize: 15,
-    fontWeight: '200',
-    color: '#444',
-  },
-});
