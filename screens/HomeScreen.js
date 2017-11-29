@@ -1,6 +1,5 @@
 import React from 'react';
-import { Platform, StyleSheet,
-  Text, TouchableOpacity, View, FlatList } from 'react-native';
+import { Platform, StyleSheet, Text, TouchableOpacity, View, FlatList } from 'react-native';
 import { SafeAreaView, StackNavigator } from 'react-navigation';
 import Banner from '../components/Banner';
 import firebase from 'firebase';
@@ -13,7 +12,9 @@ export default class HomeScreen extends React.Component {
   };
 
   static navigationOptions = ({ navigation, screenProps }) => ({
-
+    header:(
+      <Banner headerText={'PMP Quick Reference Guide'}/>
+    ),
   });
 
   componentDidMount() {
@@ -26,7 +27,6 @@ export default class HomeScreen extends React.Component {
       snapshot.forEach(function(childSnapshot) {
         var chapter = childSnapshot.val();
         chapter.id = childSnapshot.key;
-        console.log(chapter);
         chapterList.push(chapter);
       });
       return chapterList;
@@ -35,12 +35,16 @@ export default class HomeScreen extends React.Component {
   }
 
   _onPressItem = (id) => {
+    const { navigate } = this.props.navigation;
     console.log('Selected item ' + id);
-    this.props.navigation.navigate('Topics', {chapterId: id});
+    navigate('Topics', {chapterId: id});
   };
 
   _renderItem = ({item}) => (
-    <ChapterCard id={item.id} name={item.name} onPressItem={this._onPressItem} />
+    <ChapterCard
+      id={item.id}
+      name={item.name}
+      onPress={() => this._onPressItem(item.id)} />
   );
 
   _keyExtractor = (item, index) => item.id;
@@ -48,7 +52,6 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, backgroundColor: 'white' }} contentInsetAdjustmentBehavior="automatic">
-        <Banner headerText={'PMP Quick Reference Guide'}/>
         <FlatList
           data={this.state.chapterList}
           keyExtractor={this._keyExtractor}
