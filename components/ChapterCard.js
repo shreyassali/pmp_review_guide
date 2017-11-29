@@ -3,17 +3,19 @@ import { StyleSheet } from 'react-native';
 import { Card, CardItem, Body, Text } from 'native-base';
 
 export default class ChapterCard extends React.Component {
-
-render(props){
-  return (
-      <Card style={styles.containerStyle}>
-        <CardItem>
-          <Body style={styles.bodyStyle}>
-            <Text style={styles.title}> {this.props.name} </Text>
-          </Body>
-        </CardItem>
-      </Card>
-    );
+  constructor(props){
+    super(props)
+  }
+  render(props){
+    return (
+        <Card style={styles.containerStyle}>
+          <CardItem button onPress={this.props.onPress}>
+            <Body style={styles.bodyStyle}>
+              <Text style={styles.title}> {this.props.name} </Text>
+            </Body>
+          </CardItem>
+        </Card>
+      );
   }
 }
 
