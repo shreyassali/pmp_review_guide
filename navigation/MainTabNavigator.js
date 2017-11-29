@@ -12,7 +12,15 @@ import SettingsScreen from '../screens/SettingsScreen';
 export default TabNavigator(
   {
     Home: {
-      screen: HomeScreen,
+      screen: StackNavigator({
+          Home: {screen: HomeScreen},
+          Topics: {screen: TopicScreen},
+          Desceiption: {screen: TopicDescriptionScreen}
+        },
+        {
+          headerMode: 'none'
+        }
+      )
     },
     Formulas: {
       screen: LinksScreen,

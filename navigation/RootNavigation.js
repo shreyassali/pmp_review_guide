@@ -11,16 +11,12 @@ const RootStackNavigator = StackNavigator(
     Main: {
       screen: MainTabNavigator,
     },
-    Topics: {
-      screen: TopicScreen,
-    }
   },
   {
     navigationOptions: () => ({
       headerTitleStyle: {
         fontWeight: 'normal',
       },
-      header: null,
     }),
   }
 );
