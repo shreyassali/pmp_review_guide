@@ -1,13 +1,15 @@
 import React from 'react';
 import { Platform } from 'react-native';
 import { SimpleLineIcons } from '@expo/vector-icons';
-import { TabNavigator, TabBarBottom } from 'react-navigation';
+import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 
 import Colors from '../constants/Colors';
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
 import AdditionalReference from '../screens/AdditionalReference';
 import SettingsScreen from '../screens/SettingsScreen';
+import TopicScreen from '../screens/TopicScreen';
+import TopicDescriptionScreen from '../screens/TopicDescriptionScreen';
 
 export default TabNavigator(
   {
