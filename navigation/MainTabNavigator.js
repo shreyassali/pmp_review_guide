@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform } from 'react-native';
+import { Platform, Button } from 'react-native';
 import { SimpleLineIcons } from '@expo/vector-icons';
 import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 
@@ -18,7 +18,11 @@ export default TabNavigator(
       screen: StackNavigator({
           Home: {screen: HomeScreen},
           Topics: {screen: TopicScreen},
-          Desceiption: {screen: TopicDescriptionScreen}
+          Desceiption: {screen: TopicDescriptionScreen,
+            navigationOptions: ({ navigation }) => ({
+              headerLeft: <Button title="Go Back" onPress={() => navigation.goBack()}/>,
+            })
+          }
         },
         {
           headerMode: 'none'

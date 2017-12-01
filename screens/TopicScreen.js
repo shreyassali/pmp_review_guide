@@ -33,9 +33,15 @@ class TopicScreen extends React.Component {
         }));
   }
 
+  _handleOnPress = (item) => {
+    console.log(item.name);
+    const { navigate } = this.props.navigation;
+    navigate('Desceiption');
+  };
+
   _renderItem = ({item}) => (
     <List>
-        <ListItem button onPress={() => _handleOnPress(item)}>
+        <ListItem button onPress={() => this._handleOnPress(item)}>
             <Text>{item.topic_name}</Text>
         </ListItem>
    </List>
@@ -56,9 +62,5 @@ class TopicScreen extends React.Component {
     );
   }
 }
-
-_handleOnPress = (item) => {
-  console.log(item.name);
-};
 
 export default TopicScreen;
