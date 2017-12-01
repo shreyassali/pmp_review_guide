@@ -4,9 +4,10 @@ import { SimpleLineIcons } from '@expo/vector-icons';
 import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 
 import Colors from '../constants/Colors';
+
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
-import AdditionalReference from '../screens/AdditionalReference';
+import ReferencesScreen from '../screens/ReferencesScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import TopicScreen from '../screens/TopicScreen';
 import TopicDescriptionScreen from '../screens/TopicDescriptionScreen';
@@ -28,7 +29,7 @@ export default TabNavigator(
       screen: LinksScreen,
     },
     Documents: {
-      screen: AdditionalReference,
+      screen: ReferencesScreen,
     },
     Settings: {
       screen: SettingsScreen,
