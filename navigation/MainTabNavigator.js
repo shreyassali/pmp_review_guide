@@ -6,7 +6,7 @@ import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 import Colors from '../constants/Colors';
 
 import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
+import FormulaScreen from '../screens/FormulaScreen';
 import ReferencesScreen from '../screens/ReferencesScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import TopicScreen from '../screens/TopicScreen';
@@ -26,7 +26,7 @@ export default TabNavigator(
       )
     },
     Formulas: {
-      screen: LinksScreen,
+      screen: FormulaScreen,
     },
     Documents: {
       screen: ReferencesScreen,
