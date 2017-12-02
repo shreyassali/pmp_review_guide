@@ -1,0 +1,724 @@
+[
+
+	{
+		"name": "PROJECT MANAGEMENT FRAMEWORK",
+		"topics": [{
+				"topic_id": 0,
+				"topic_name": "Project"
+			},
+			{
+				"topic_id": 1,
+				"topic_name": "Program"
+			},
+			{
+				"topic_id": 2,
+				"topic_name": "Portfolio"
+			},
+			{
+				"topic_id": 3,
+				"topic_name": "Organization Project Management (OPM)"
+			},
+			{
+				"topic_id": 4,
+				"topic_name": "Project Management Office (PMO) Forms"
+			},
+			{
+				"topic_id": 5,
+				"topic_name": "Project Constraints"
+			},
+			{
+				"topic_id": 6,
+				"topic_name": "Organizational Structures"
+			},
+			{
+				"topic_id": 7,
+				"topic_name": "Lessons Learned"
+			},
+			{
+				"topic_id": 8,
+				"topic_name": "Tight matrix"
+			},
+			{
+				"topic_id": 9,
+				"topic_name": "Organizational Process Assets"
+			},
+			{
+				"topic_id": 10,
+				"topic_name": "Enterprise Environmental Factors"
+			},
+			{
+				"topic_id": 11,
+				"topic_name": "Project Expeditor"
+			},
+			{
+				"topic_id": 12,
+				"topic_name": "Project Coordinator"
+			},
+			{
+				"topic_id": 13,
+				"topic_name": "Project Life Cycle"
+			},
+			{
+				"topic_id": 14,
+				"topic_name": "Project Management Process"
+			},
+			{
+				"topic_id": 15,
+				"topic_name": "Matrix Organization Structure (Two bosses)"
+			}
+		]
+	},
+	{
+		"name": "KNOWLEDGE MANAGEMENT PLANS",
+		"topics": [{
+				"topic_id": 16,
+				"topic_name": "Knowledge area management plans"
+			},
+			{
+				"topic_id": 17,
+				"topic_name": "knowledge area management plans"
+			},
+			{
+				"topic_id": 18,
+				"topic_name": "Work authorization system"
+			},
+			{
+				"topic_id": 19,
+				"topic_name": "Process of making changes"
+			},
+			{
+				"topic_id": 20,
+				"topic_name": "Change control system"
+			},
+			{
+				"topic_id": 21,
+				"topic_name": "Configuration management system"
+			}
+		]
+	},
+	{
+		"name": "INTEGRATION MANAGEMENT",
+		"topics": [{
+				"topic_id": 22,
+				"topic_name": "Projects Chartered"
+			},
+			{
+				"topic_id": 23,
+				"topic_name": "Project Selection"
+			},
+			{
+				"topic_id": 24,
+				"topic_name": "Project Selection Methods"
+			},
+			{
+				"topic_id": 25,
+				"topic_name": "Economic models"
+			},
+			{
+				"topic_id": 26,
+				"topic_name": "Payback Period"
+			},
+			{
+				"topic_id": 27,
+				"topic_name": "SOW"
+			},
+			{
+				"topic_id": 28,
+				"topic_name": "Scoring models"
+			},
+			{
+				"topic_id": 29,
+				"topic_name": "Benefit-Cost Ratios (BCRs)"
+			},
+			{
+				"topic_id": 30,
+				"topic_name": "Future Value (FV)"
+			},
+			{
+				"topic_id": 31,
+				"topic_name": "Present Value"
+			},
+			{
+				"topic_id": 32,
+				"topic_name": "Internal Rate of Return (IRR)"
+			},
+			{
+				"topic_id": 33,
+				"topic_name": "project based on NPV"
+			},
+			{
+				"topic_id": 34,
+				"topic_name": "Net Present Value"
+			},
+			{
+				"topic_id": 35,
+				"topic_name": "Constrained Optimization Methods"
+			}
+		]
+	},
+	{
+		"name": "SCOPE MANAGEMENT",
+		"topics": [{
+				"topic_id": 36,
+				"topic_name": "Product Scope"
+			},
+			{
+				"topic_id": 37,
+				"topic_name": "Project Scope"
+			},
+			{
+				"topic_id": 38,
+				"topic_name": "Requirement Traceability Matrix"
+			},
+			{
+				"topic_id": 39,
+				"topic_name": "Define Scope"
+			},
+			{
+				"topic_id": 40,
+				"topic_name": "Change Control System"
+			},
+			{
+				"topic_id": 41,
+				"topic_name": "Configuration Management System"
+			},
+			{
+				"topic_id": 42,
+				"topic_name": "Work Breakdown Structure (WBS)"
+			},
+			{
+				"topic_id": 43,
+				"topic_name": "Define Scope"
+			},
+			{
+				"topic_id": 44,
+				"topic_name": "Scope Baseline"
+			},
+			{
+				"topic_id": 45,
+				"topic_name": "Code of Accounts"
+			},
+			{
+				"topic_id": 46,
+				"topic_name": "WBS Dictionary"
+			}
+		]
+	},
+	{
+		"name": "TIME MANAGEMENT",
+		"topics": [{
+				"topic_id": 47,
+				"topic_name": "Lag"
+			},
+			{
+				"topic_id": 48,
+				"topic_name": "Lead"
+			},
+			{
+				"topic_id": 49,
+				"topic_name": "Crashing"
+			},
+			{
+				"topic_id": 50,
+				"topic_name": "Fast tracking"
+			},
+			{
+				"topic_id": 51,
+				"topic_name": "Free Float"
+			},
+			{
+				"topic_id": 52,
+				"topic_name": "Total Float"
+			},
+			{
+				"topic_id": 53,
+				"topic_name": "Float"
+			},
+			{
+				"topic_id": 54,
+				"topic_name": "Finish-to-start (FS)"
+			},
+			{
+				"topic_id": 55,
+				"topic_name": "Start-to-start (SS)"
+			},
+			{
+				"topic_id": 56,
+				"topic_name": "Finish-to-finish (FF)"
+			},
+			{
+				"topic_id": 57,
+				"topic_name": "Three-point estimate"
+			},
+			{
+				"topic_id": 59,
+				"topic_name": "PERT"
+			},
+			{
+				"topic_id": 60,
+				"topic_name": "Critical Chain"
+			},
+			{
+				"topic_id": 61,
+				"topic_name": "Complete the Forward Pass"
+			}
+		]
+	},
+	{
+		"name": "COST MANAGEMENT",
+		"topics": [{
+				"topic_id": 62,
+				"topic_name": "Variable Costs"
+			},
+			{
+				"topic_id": 63,
+				"topic_name": "Fixed Costs"
+			},
+			{
+				"topic_id": 64,
+				"topic_name": "Indirect Costs"
+			},
+			{
+				"topic_id": 65,
+				"topic_name": "Direct Costs"
+			},
+			{
+				"topic_id": 66,
+				"topic_name": "Sunk Costs"
+			},
+			{
+				"topic_id": 67,
+				"topic_name": "An Opportunity Cost"
+			},
+			{
+				"topic_id": 68,
+				"topic_name": "Rough Order of Magnitude"
+			},
+			{
+				"topic_id": 69,
+				"topic_name": "Budget Estimate"
+			},
+			{
+				"topic_id": 70,
+				"topic_name": "Definitive Estimate"
+			},
+			{
+				"topic_id": 71,
+				"topic_name": "Bottom-up"
+			},
+			{
+				"topic_id": 72,
+				"topic_name": "Analogous"
+			},
+			{
+				"topic_id": 73,
+				"topic_name": "Parametric"
+			},
+			{
+				"topic_id": 74,
+				"topic_name": "EVM Rules"
+			},
+			{
+				"topic_id": 75,
+				"topic_name": "Heuristic"
+			},
+			{
+				"topic_id": 76,
+				"topic_name": "FMEA"
+			},
+			{
+				"topic_id": 77,
+				"topic_name": "Earned Value Management"
+			}
+		]
+	},
+	{
+		"name": "QUALITY MANAGEMENT",
+		"topics": [{
+				"topic_id": 78,
+				"topic_name": "Cost of quality"
+			},
+			{
+				"topic_id": 79,
+				"topic_name": "Cost of poor quality"
+			},
+			{
+				"topic_id": 80,
+				"topic_name": "80-20 Rule"
+			},
+			{
+				"topic_id": 81,
+				"topic_name": "Consensus management"
+			},
+			{
+				"topic_id": 82,
+				"topic_name": "Quality"
+			},
+			{
+				"topic_id": 83,
+				"topic_name": "Theorists"
+			},
+			{
+				"topic_id": 84,
+				"topic_name": "Marginal Analysis"
+			},
+			{
+				"topic_id": 85,
+				"topic_name": "JIT (Just in Time)"
+			},
+			{
+				"topic_id": 86,
+				"topic_name": "Change control system"
+			},
+			{
+				"topic_id": 87,
+				"topic_name": "Knowledge area management plans"
+			},
+			{
+				"topic_id": 88,
+				"topic_name": "IMPACT of poor quality"
+			},
+			{
+				"topic_id": 89,
+				"topic_name": "Pareto Diagram"
+			},
+			{
+				"topic_id": 90,
+				"topic_name": "Scatter Diagram"
+			},
+			{
+				"topic_id": 91,
+				"topic_name": "Statistical Sampling"
+			}
+		]
+	},
+	{
+		"name": "HUMAN RESOURCES MANAGEMENT",
+		"topics": [{
+				"topic_id": 92,
+				"topic_name": "Expert"
+			},
+			{
+				"topic_id": 93,
+				"topic_name": "Reward"
+			},
+			{
+				"topic_id": 94,
+				"topic_name": "Formal"
+			},
+			{
+				"topic_id": 95,
+				"topic_name": "Referent"
+			},
+			{
+				"topic_id": 96,
+				"topic_name": "Reward"
+			},
+			{
+				"topic_id": 97,
+				"topic_name": "Coercive"
+			},
+			{
+				"topic_id": 98,
+				"topic_name": "Maslow’s Hierarchy of Needs"
+			},
+			{
+				"topic_id": 99,
+				"topic_name": "Maslow’s Hierarchy - Physiological"
+			},
+			{
+				"topic_id": 100,
+				"topic_name": "Maslow’s Hierarchy - Safety"
+			},
+			{
+				"topic_id": 101,
+				"topic_name": "Maslow’s Hierarchy - Social"
+			},
+			{
+				"topic_id": 102,
+				"topic_name": "Maslow’s Hierarchy - Esteem"
+			},
+			{
+				"topic_id": 103,
+				"topic_name": "Maslow’s Hierarchy - Self-actualization"
+			},
+			{
+				"topic_id": 104,
+				"topic_name": "Herzberg’s Theory of Motivation"
+			},
+			{
+				"topic_id": 105,
+				"topic_name": "Herzberg’s Theory of Motivation - Hygiene Agents"
+			},
+			{
+				"topic_id": 106,
+				"topic_name": "Herzberg’s Theory of Motivation - Motivating agents"
+			},
+			{
+				"topic_id": 107,
+				"topic_name": "Halo Effect"
+			},
+			{
+				"topic_id": 108,
+				"topic_name": "Parkinson’s Law"
+			},
+			{
+				"topic_id": 109,
+				"topic_name": "McGregor’s X and Y"
+			},
+			{
+				"topic_id": 110,
+				"topic_name": "Ouchi’s Theory Z"
+			},
+			{
+				"topic_id": 111,
+				"topic_name": "McClelland’s Theory of Needs"
+			},
+			{
+				"topic_id": 112,
+				"topic_name": "Vroom’s Expectancy Theory"
+			},
+			{
+				"topic_id": 113,
+				"topic_name": "PMI HR Terms: Role"
+			},
+			{
+				"topic_id": 114,
+				"topic_name": "PMI HR Terms: Responsibility"
+			},
+			{
+				"topic_id": 115,
+				"topic_name": "PMI HR Terms: Authority"
+			}
+		]
+	},
+	{
+		"name": "CONFLICT MANAGEMENT",
+		"topics": [{
+				"topic_id": 116,
+				"topic_name": "Problem Solving"
+			},
+			{
+				"topic_id": 117,
+				"topic_name": "Compromising"
+			},
+			{
+				"topic_id": 118,
+				"topic_name": "Forcing"
+			},
+			{
+				"topic_id": 119,
+				"topic_name": "Withdrawal"
+			},
+			{
+				"topic_id": 120,
+				"topic_name": "Smoothing"
+			}
+		]
+	},
+	{
+		"name": "COMMUNICATIONS MANAGEMENT",
+		"topics": [{
+				"topic_id": 121,
+				"topic_name": "Communication channels"
+			},
+			{
+				"topic_id": 122,
+				"topic_name": "Para-lingual"
+			},
+			{
+				"topic_id": 123,
+				"topic_name": "Effective listening"
+			},
+			{
+				"topic_id": 124,
+				"topic_name": "Active Listening"
+			},
+			{
+				"topic_id": 125,
+				"topic_name": "Communications management plan"
+			}
+		]
+	},
+	{
+		"name": "RISK MANAGEMENT",
+		"topics": [{
+				"topic_id": 126,
+				"topic_name": "Monte Carlo analysis"
+			},
+			{
+				"topic_id": 127,
+				"topic_name": "Resource Histogram"
+			},
+			{
+				"topic_id": 128,
+				"topic_name": "Change control system"
+			},
+			{
+				"topic_id": 129,
+				"topic_name": "Avoidance"
+			},
+			{
+				"topic_id": 130,
+				"topic_name": "Mitigation"
+			},
+			{
+				"topic_id": 131,
+				"topic_name": "Acceptance"
+			},
+			{
+				"topic_id": 132,
+				"topic_name": "Transference"
+			},
+			{
+				"topic_id": 133,
+				"topic_name": "Exploit"
+			},
+			{
+				"topic_id": 134,
+				"topic_name": "Share"
+			},
+			{
+				"topic_id": 135,
+				"topic_name": "Enhance"
+			},
+			{
+				"topic_id": 136,
+				"topic_name": "Contingency Fund"
+			},
+			{
+				"topic_id": 137,
+				"topic_name": "Secondary risks"
+			},
+			{
+				"topic_id": 138,
+				"topic_name": "Triggers"
+			},
+			{
+				"topic_id": 139,
+				"topic_name": "Positive risk"
+			},
+			{
+				"topic_id": 140,
+				"topic_name": "Pure risk"
+			},
+			{
+				"topic_id": 141,
+				"topic_name": "Business risk"
+			},
+			{
+				"topic_id": 142,
+				"topic_name": "Qualitative analysis"
+			},
+			{
+				"topic_id": 143,
+				"topic_name": "Quantitative analysis"
+			},
+			{
+				"topic_id": 144,
+				"topic_name": "Utility function"
+			}
+		]
+	},
+	{
+		"name": "PROCURMENT MANAGEMENT",
+		"topics": [{
+				"topic_id": 145,
+				"topic_name": "Contracts"
+			},
+			{
+				"topic_id": 146,
+				"topic_name": "Cost reimbursable contracts"
+			},
+			{
+				"topic_id": 147,
+				"topic_name": "Fixed-price (lump-sum contracts)"
+			},
+			{
+				"topic_id": 148,
+				"topic_name": "Time and materials contract"
+			},
+			{
+				"topic_id": 148,
+				"topic_name": "Purchase order"
+			},
+			{
+				"topic_id": 149,
+				"topic_name": "Letter of intent"
+			},
+			{
+				"topic_id": 150,
+				"topic_name": "Letter contract"
+			},
+			{
+				"topic_id": 151,
+				"topic_name": "Bidder conference"
+			},
+			{
+				"topic_id": 152,
+				"topic_name": "Statement of Work and Buyer"
+			},
+			{
+				"topic_id": 153,
+				"topic_name": "A bidder conference"
+			},
+			{
+				"topic_id": 154,
+				"topic_name": "Decentralized contracting"
+			}
+		]
+	},
+	{
+		"name": "STAKEHOLDER MANAGEMENT",
+		"topics": [{
+				"topic_id": 155,
+				"topic_name": "Stakeholder Analysis"
+			},
+			{
+				"topic_id": 156,
+				"topic_name": "Stakeholder Register"
+			},
+			{
+				"topic_id": 157,
+				"topic_name": "Stakeholder Classification Models"
+			},
+			{
+				"topic_id": 158,
+				"topic_name": "Stakeholder Classification - Power / Interest grid"
+			},
+			{
+				"topic_id": 159,
+				"topic_name": "Stakeholder Classification - Power / Influence grid"
+			},
+			{
+				"topic_id": 160,
+				"topic_name": "Stakeholder Classification - Influence / Impact grid"
+			},
+			{
+				"topic_id": 161,
+				"topic_name": "Salience model"
+			}
+		]
+	},
+	{
+		"name": "PROFESSIONAL AND SOCIAL RESPONSIBILITY",
+		"topics": [{
+				"topic_id": 162,
+				"topic_name": "Responsibility"
+			},
+			{
+				"topic_id": 163,
+				"topic_name": "Respect"
+			},
+			{
+				"topic_id": 164,
+				"topic_name": "Fairness"
+			},
+			{
+				"topic_id": 165,
+				"topic_name": "Honesty"
+			}
+		]
+	}
+
+]
