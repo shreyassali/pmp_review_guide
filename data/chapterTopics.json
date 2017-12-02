@@ -639,31 +639,31 @@
 				"topic_name": "Time and materials contract"
 			},
 			{
-				"topic_id": 148,
+				"topic_id": 149,
 				"topic_name": "Purchase order"
 			},
 			{
-				"topic_id": 149,
+				"topic_id": 150,
 				"topic_name": "Letter of intent"
 			},
 			{
-				"topic_id": 150,
+				"topic_id": 151,
 				"topic_name": "Letter contract"
 			},
 			{
-				"topic_id": 151,
+				"topic_id": 152,
 				"topic_name": "Bidder conference"
 			},
 			{
-				"topic_id": 152,
+				"topic_id": 153,
 				"topic_name": "Statement of Work and Buyer"
 			},
 			{
-				"topic_id": 153,
+				"topic_id": 154,
 				"topic_name": "A bidder conference"
 			},
 			{
-				"topic_id": 154,
+				"topic_id": 155,
 				"topic_name": "Decentralized contracting"
 			}
 		]
@@ -671,51 +671,51 @@
 	{
 		"name": "STAKEHOLDER MANAGEMENT",
 		"topics": [{
-				"topic_id": 155,
+				"topic_id": 156,
 				"topic_name": "Stakeholder Analysis"
 			},
 			{
-				"topic_id": 156,
+				"topic_id": 157,
 				"topic_name": "Stakeholder Register"
 			},
 			{
-				"topic_id": 157,
+				"topic_id": 158,
 				"topic_name": "Stakeholder Classification Models"
 			},
 			{
-				"topic_id": 158,
+				"topic_id": 159,
 				"topic_name": "Stakeholder Classification - Power / Interest grid"
 			},
 			{
-				"topic_id": 159,
+				"topic_id": 160,
 				"topic_name": "Stakeholder Classification - Power / Influence grid"
 			},
 			{
-				"topic_id": 160,
+				"topic_id": 161,
 				"topic_name": "Stakeholder Classification - Influence / Impact grid"
 			},
 			{
-				"topic_id": 161,
+				"topic_id": 162,
 				"topic_name": "Salience model"
 			}
 		]
 	},
 	{
-		"name": "PROFESSIONAL AND SOCIAL RESPONSIBILITY",
+		"name": "PROFESSIONAL RESPONSIBILITY",
 		"topics": [{
-				"topic_id": 162,
+				"topic_id": 163,
 				"topic_name": "Responsibility"
 			},
 			{
-				"topic_id": 163,
+				"topic_id": 164,
 				"topic_name": "Respect"
 			},
 			{
-				"topic_id": 164,
+				"topic_id": 165,
 				"topic_name": "Fairness"
 			},
 			{
-				"topic_id": 165,
+				"topic_id": 166,
 				"topic_name": "Honesty"
 			}
 		]
