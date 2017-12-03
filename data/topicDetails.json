@@ -1,0 +1,998 @@
+[
+	{
+		"topic_id": 0,
+		"topic_name": "Project",
+		"topic_description": "Temporary endeavor with beginning and end. Project creates unique product, service and result.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 1,
+		"topic_name": "Program",
+		"topic_description": "Program is a group of related projects.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 2,
+		"topic_name": "Portfolio",
+		"topic_description": "Portfolio is a group of programs, individual projects and related operation and it achieves specific strategic goal.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 3,
+		"topic_name": "Organization Project Management (OPM)",
+		"topic_description": "It serves as a guide or driver for the project, program and portfolio management. OPM3 designed to help organizations determine their level of maturity in project management.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 4,
+		"topic_name": "Project Management Office (PMO) Forms",
+		"topic_description": "1. Supportive: Low level control over project  2. Controlling: Moderate level control over project  3. Directive: High level control over project",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 5,
+		"topic_name": "Project Constraints",
+		"topic_description": "Time, Cost, Scope, Quality, Customer Satisfaction, Risk, Resources.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 6,
+		"topic_name": "Organizational Structures",
+		"topic_description": "1. Projectized Organization 2. Functional Organization ",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 7,
+		"topic_name": "Lessons Learned",
+		"topic_description": "Lessons Learned is completed by stakeholder",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 8,
+		"topic_name": "Tight matrix",
+		"topic_description": "Nothing to do with matrix organization.  It mentions project team collocated or located in the same room.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 9,
+		"topic_name": "Organizational Process Assets",
+		"topic_description": "Processes, Procedure, Policies, Corporate knowledge base, Historical information and Lesson learned.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 10,
+		"topic_name": "Enterprise Environmental Factors",
+		"topic_description": "Company culture, existing system, organization structure and hierarchy.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 11,
+		"topic_name": "Project Expeditor",
+		"topic_description": "Act as a staff assistant and communication coordinator. He can’t make or impose decision.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 12,
+		"topic_name": "Project Coordinator",
+		"topic_description": "He has an authority to make the decision and report to higher level managers.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 13,
+		"topic_name": "Project Life Cycle",
+		"topic_description": "It means what you need to do to perform work.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 14,
+		"topic_name": "Project Management Process",
+		"topic_description": "What you need to do to manage the work (5 Project Management Processes) Initiating, Planning, Executing, Monitoring and Controlling, Closing.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 15,
+		"topic_name": "Matrix Organization Structure (Two bosses)",
+		"topic_description": "Weak Matrix, Strong Matrix, Balance Matrix",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 16,
+		"topic_name": "Knowledge area management plans",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 17,
+		"topic_name": "knowledge area management plans",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 18,
+		"topic_name": "Work authorization system",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 19,
+		"topic_name": "Process of making changes",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 20,
+		"topic_name": "Change control system",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 21,
+		"topic_name": "Configuration management system",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 22,
+		"topic_name": "Projects Chartered",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 23,
+		"topic_name": "Project Selection",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 24,
+		"topic_name": "Project Selection Methods",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 25,
+		"topic_name": "Economic models",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 26,
+		"topic_name": "Payback Period",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 27,
+		"topic_name": "SOW",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 28,
+		"topic_name": "Scoring models",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 29,
+		"topic_name": "Benefit-Cost Ratios (BCRs)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 30,
+		"topic_name": "Future Value (FV)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 31,
+		"topic_name": "Present Value",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 32,
+		"topic_name": "Internal Rate of Return (IRR)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 33,
+		"topic_name": "project based on NPV",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 34,
+		"topic_name": "Net Present Value",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 35,
+		"topic_name": "Constrained Optimization Methods",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 36,
+		"topic_name": "Product Scope",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 37,
+		"topic_name": "Project Scope",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 38,
+		"topic_name": "Requirement Traceability Matrix",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 39,
+		"topic_name": "Define Scope",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 40,
+		"topic_name": "Change Control System",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 41,
+		"topic_name": "Configuration Management System",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 42,
+		"topic_name": "Work Breakdown Structure (WBS)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 43,
+		"topic_name": "Define Scope",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 44,
+		"topic_name": "Scope Baseline",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 45,
+		"topic_name": "Code of Accounts",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 46,
+		"topic_name": "WBS Dictionary",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 47,
+		"topic_name": "Lag",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 48,
+		"topic_name": "Lead",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 49,
+		"topic_name": "Crashing",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 50,
+		"topic_name": "Fast tracking",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 51,
+		"topic_name": "Free Float",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 52,
+		"topic_name": "Total Float",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 53,
+		"topic_name": "Float",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 54,
+		"topic_name": "Finish-to-start (FS)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 55,
+		"topic_name": "Start-to-start (SS)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 56,
+		"topic_name": "Finish-to-finish (FF)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 57,
+		"topic_name": "Three-point estimate",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 59,
+		"topic_name": "PERT",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 60,
+		"topic_name": "Critical Chain",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 61,
+		"topic_name": "Complete the Forward Pass",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 62,
+		"topic_name": "Variable Costs",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 63,
+		"topic_name": "Fixed Costs",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 64,
+		"topic_name": "Indirect Costs",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 65,
+		"topic_name": "Direct Costs",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 66,
+		"topic_name": "Sunk Costs",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 67,
+		"topic_name": "An Opportunity Cost",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 68,
+		"topic_name": "Rough Order of Magnitude",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 69,
+		"topic_name": "Budget Estimate",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 70,
+		"topic_name": "Definitive Estimate",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 71,
+		"topic_name": "Bottom-up",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 72,
+		"topic_name": "Analogous",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 73,
+		"topic_name": "Parametric",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 74,
+		"topic_name": "EVM Rules",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 75,
+		"topic_name": "Heuristic",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 76,
+		"topic_name": "FMEA",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 77,
+		"topic_name": "Earned Value Management",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 78,
+		"topic_name": "Cost of quality",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 79,
+		"topic_name": "Cost of poor quality",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 80,
+		"topic_name": "80-20 Rule",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 81,
+		"topic_name": "Consensus management",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 82,
+		"topic_name": "Quality",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 83,
+		"topic_name": "Theorists",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 84,
+		"topic_name": "Marginal Analysis",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 85,
+		"topic_name": "JIT (Just in Time)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 86,
+		"topic_name": "Change control system",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 87,
+		"topic_name": "Knowledge area management plans",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 88,
+		"topic_name": "IMPACT of poor quality",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 89,
+		"topic_name": "Pareto Diagram",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 90,
+		"topic_name": "Scatter Diagram",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 91,
+		"topic_name": "Statistical Sampling",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 92,
+		"topic_name": "Expert",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 93,
+		"topic_name": "Reward",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 94,
+		"topic_name": "Formal",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 95,
+		"topic_name": "Referent",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 96,
+		"topic_name": "Reward",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 97,
+		"topic_name": "Coercive",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 98,
+		"topic_name": "Maslow’s Hierarchy of Needs",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 99,
+		"topic_name": "Maslow’s Hierarchy - Physiological",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 100,
+		"topic_name": "Maslow’s Hierarchy - Safety",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 101,
+		"topic_name": "Maslow’s Hierarchy - Social",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 102,
+		"topic_name": "Maslow’s Hierarchy - Esteem",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 103,
+		"topic_name": "Maslow’s Hierarchy - Self-actualization",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 104,
+		"topic_name": "Herzberg’s Theory of Motivation",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 105,
+		"topic_name": "Herzberg’s Theory of Motivation - Hygiene Agents",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 106,
+		"topic_name": "Herzberg’s Theory of Motivation - Motivating agents",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 107,
+		"topic_name": "Halo Effect",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 108,
+		"topic_name": "Parkinson’s Law",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 109,
+		"topic_name": "McGregor’s X and Y",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 110,
+		"topic_name": "Ouchi’s Theory Z",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 111,
+		"topic_name": "McClelland’s Theory of Needs",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 112,
+		"topic_name": "Vroom’s Expectancy Theory",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 113,
+		"topic_name": "PMI HR Terms: Role",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 114,
+		"topic_name": "PMI HR Terms: Responsibility",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 115,
+		"topic_name": "PMI HR Terms: Authority",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 116,
+		"topic_name": "Problem Solving",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 117,
+		"topic_name": "Compromising",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 118,
+		"topic_name": "Forcing",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 119,
+		"topic_name": "Withdrawal",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 120,
+		"topic_name": "Smoothing",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 121,
+		"topic_name": "Communication channels",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 122,
+		"topic_name": "Para-lingual",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 123,
+		"topic_name": "Effective listening",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 124,
+		"topic_name": "Active Listening",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 125,
+		"topic_name": "Communications management plan",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 126,
+		"topic_name": "Monte Carlo analysis",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 127,
+		"topic_name": "Resource Histogram",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 128,
+		"topic_name": "Change control system",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 129,
+		"topic_name": "Avoidance",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 130,
+		"topic_name": "Mitigation",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 131,
+		"topic_name": "Acceptance",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 132,
+		"topic_name": "Transference",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 133,
+		"topic_name": "Exploit",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 134,
+		"topic_name": "Share",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 135,
+		"topic_name": "Enhance",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 136,
+		"topic_name": "Contingency Fund",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 137,
+		"topic_name": "Secondary risks",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 138,
+		"topic_name": "Triggers",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 139,
+		"topic_name": "Positive risk",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 140,
+		"topic_name": "Pure risk",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 141,
+		"topic_name": "Business risk",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 142,
+		"topic_name": "Qualitative analysis",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 143,
+		"topic_name": "Quantitative analysis",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 144,
+		"topic_name": "Utility function",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 145,
+		"topic_name": "Contracts",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 146,
+		"topic_name": "Cost reimbursable contracts",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 147,
+		"topic_name": "Fixed-price (lump-sum contracts)",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 148,
+		"topic_name": "Time and materials contract",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 148,
+		"topic_name": "Purchase order",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 149,
+		"topic_name": "Letter of intent",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 150,
+		"topic_name": "Letter contract",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 151,
+		"topic_name": "Bidder conference",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 152,
+		"topic_name": "Statement of Work and Buyer",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 153,
+		"topic_name": "A bidder conference",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 154,
+		"topic_name": "Decentralized contracting",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 155,
+		"topic_name": "Stakeholder Analysis",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 156,
+		"topic_name": "Stakeholder Register",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 157,
+		"topic_name": "Stakeholder Classification Models",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 158,
+		"topic_name": "Stakeholder Classification - Power / Interest grid",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 159,
+		"topic_name": "Stakeholder Classification - Power / Influence grid",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 160,
+		"topic_name": "Stakeholder Classification - Influence / Impact grid",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 161,
+		"topic_name": "Salience model",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 162,
+		"topic_name": "Responsibility",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 163,
+		"topic_name": "Respect",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 164,
+		"topic_name": "Fairness",
+		"topic_description": "",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 165,
+		"topic_name": "Honesty",
+		"topic_description": "",
+		"image_url": "none"
+	}
+]

@@ -1,59 +1,59 @@
 {
 	"chapterList": [{
 			"name": "PROJECT MANAGEMENT FRAMEWORK",
-			"isformulaAvailable": true
+			"isImageAvailable": true
 		},
 		{
 			"name": "KNOWLEDGE MANAGEMENT",
-			"isformulaAvailable": false
+			"isImageAvailable": true
 		},
 		{
 			"name": "INTEGRATION MANAGEMENT",
-			"isformulaAvailable": true
+			"isImageAvailable": false
 		},
 		{
 			"name": "SCOPE MANAGEMENT",
-			"isformulaAvailable": true
+			"isImageAvailable": true
 		},
 		{
 			"name": "TIME MANAGEMENT",
-			"isformulaAvailable": false
+			"isImageAvailable": true
 		},
 		{
 			"name": "COST MANAGEMENT",
-			"isformulaAvailable": true
+			"isImageAvailable": true
 		},
 		{
 			"name": "QUALITY MANAGEMENT",
-			"isformulaAvailable": true
+			"isImageAvailable": false
 		},
 		{
 			"name": "HUMAN RESOURCES MANAGEMENT",
-			"isformulaAvailable": false
+			"isImageAvailable": true
 		},
 		{
 			"name": "CONFLICT MANAGEMENT",
-			"isformulaAvailable": true
+			"isImageAvailable": false
 		},
 		{
 			"name": "COMMUNICATIONS MANAGEMENT",
-			"isformulaAvailable": true
+			"isImageAvailable": true
 		},
 		{
 			"name": "RISK MANAGEMENT",
-			"isformulaAvailable": false
+			"isImageAvailable": false
 		},
 		{
 			"name": "PROCURMENT MANAGEMENT",
-			"isformulaAvailable": true
+			"isImageAvailable": true
 		},
 		{
 			"name": "STAKEHOLDER MANAGEMENT",
-			"isformulaAvailable": false
+			"isImageAvailable": false
 		},
 		{
 			"name": "PROFESSIONAL RESPONSIBILITY",
-			"isformulaAvailable": true
+			"isImageAvailable": false
 		}
 	],
 	"externalResources": [{
