@@ -1,7 +1,9 @@
 import React from 'react';
 import firebase from 'firebase';
-import { Platform, StyleSheet, TouchableOpacity, View, FlatList, Button } from 'react-native';
-import { List, ListItem, Text, Icon } from 'native-base';
+import { Platform, StyleSheet, TouchableOpacity, View, FlatList } from 'react-native';
+import { List, ListItem, Text, Button } from 'native-base';
+import { Ionicons } from '@expo/vector-icons';
+
 import Banner from '../components/Banner';
 
 class TopicScreen extends React.Component {
@@ -13,7 +15,14 @@ class TopicScreen extends React.Component {
 
   static navigationOptions = ({ navigation }) => ({
     //title: this.state.chapterName,
-    headerLeft: <Button title="Go Back" onPress={() => navigation.goBack()}/>
+    headerLeft: ( <Button iconLeft transparent primary onPress={() => navigation.goBack()}>
+                    <Ionicons size={28}
+                      color= '#307be1'
+                      style={{ marginLeft: 10, marginRight:1 }}
+                      name='ios-arrow-back-outline' />
+                    <Text>Back</Text>
+                  </Button>
+                ),
   });
 
   componentDidMount() {
@@ -36,9 +45,10 @@ class TopicScreen extends React.Component {
   _handleOnPress = (item) => {
     console.log(item.name);
     const { navigate } = this.props.navigation;
-    navigate('Desceiption');
+    console.log('Selected topic item ' + id);
+    navigate('Desceiption', {topicId: id});
   };
-
+  
   _renderItem = ({item}) => (
     <List>
         <ListItem button onPress={() => this._handleOnPress(item)}>

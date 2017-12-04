@@ -1,10 +1,11 @@
 import React from 'react';
-import { Platform, Button } from 'react-native';
+import { Platform } from 'react-native';
 import { SimpleLineIcons } from '@expo/vector-icons';
 import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
+import { Ionicons } from '@expo/vector-icons';
+import { Text, Button } from 'native-base';
 
 import Colors from '../constants/Colors';
-
 import HomeScreen from '../screens/HomeScreen';
 import FormulaScreen from '../screens/FormulaScreen';
 import ReferencesScreen from '../screens/ReferencesScreen';
@@ -20,7 +21,14 @@ export default TabNavigator(
           Topics: {screen: TopicScreen},
           Desceiption: {screen: TopicDescriptionScreen,
             navigationOptions: ({ navigation }) => ({
-              headerLeft: <Button title="Go Back" onPress={() => navigation.goBack()}/>,
+              headerLeft: ( <Button iconLeft transparent primary onPress={() => navigation.goBack()}>
+                              <Ionicons size={28}
+                                color= '#307be1'
+                                style={{ marginLeft: 10, marginRight:1 }}
+                                name='ios-arrow-back-outline' />
+                              <Text>Back</Text>
+                            </Button>
+                          ),
             })
           }
         },
