@@ -4,39 +4,27 @@ import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Left, Body
 import { Entypo } from '@expo/vector-icons';
 
 export default class DescriptionCard extends React.Component {
-    render() {
+    render(props) {
         return (
-          <Container>
-            <Content>
-              <Card style={styles.containerStyle}>
-                <CardItem>
-                  <Left>
-                    <Thumbnail source={{uri: 'Image URL'}} />
-                    <Body>
-                      <Text>NativeBase</Text>
-                      <Text note>April 15, 2016</Text>
-                    </Body>
-                  </Left>
-                </CardItem>
-                <CardItem>
-                  <Body>
-                    <Image source={{uri: 'Image URL'}} style={{height: 200, width: 200, flex: 1}}/>
-                    <Text>
-                      Sample Test Topic Description
-                    </Text>
-                  </Body>
-                </CardItem>
-                <CardItem>
-                  <Left>
-                    <Button transparent textStyle={{color: '#87838B'}}>
-                      <Entypo name="github" />
-                      <Text>1,926 stars</Text>
-                    </Button>
-                  </Left>
-                </CardItem>
-              </Card>
-            </Content>
-          </Container>
+      <Container>
+        <Content>
+          <Card style={styles.containerStyle}>
+            <CardItem header>
+              <Text>{this.props.topic_name}</Text>
+            </CardItem>
+            <CardItem>
+              <Body>
+                <Text>
+                  {this.props.topic_description}
+                </Text>
+              </Body>
+            </CardItem>
+            <CardItem footer>
+              <Text>PMP Quick Review Guide</Text>
+            </CardItem>
+         </Card>
+        </Content>
+      </Container>
         );
     }
 }
