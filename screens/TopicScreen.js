@@ -43,12 +43,11 @@ class TopicScreen extends React.Component {
   }
 
   _handleOnPress = (item) => {
-    console.log(item.name);
     const { navigate } = this.props.navigation;
-    console.log('Selected topic item ' + id);
-    navigate('Desceiption', {topicId: id});
+    console.log('Selected topic item ' + item.topic_id + " " + item.topic_name);
+    navigate('Desceiption', {topicId: item.topic_id});
   };
-  
+
   _renderItem = ({item}) => (
     <List>
         <ListItem button onPress={() => this._handleOnPress(item)}>

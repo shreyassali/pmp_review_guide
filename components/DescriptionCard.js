@@ -10,12 +10,12 @@ export default class DescriptionCard extends React.Component {
         <Content>
           <Card style={styles.containerStyle}>
             <CardItem header>
-              <Text>{this.props.topic_name}</Text>
+              <Text>{this.props.name}</Text>
             </CardItem>
             <CardItem>
               <Body>
                 <Text>
-                  {this.props.topic_description}
+                  {this.props.description}
                 </Text>
               </Body>
             </CardItem>
