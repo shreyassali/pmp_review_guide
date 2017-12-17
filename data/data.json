@@ -1,59 +1,73 @@
 {
 	"chapterList": [{
 			"name": "PROJECT MANAGEMENT FRAMEWORK",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "KNOWLEDGE MANAGEMENT",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "INTEGRATION MANAGEMENT",
-			"isImageAvailable": false
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "SCOPE MANAGEMENT",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "TIME MANAGEMENT",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "COST MANAGEMENT",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "QUALITY MANAGEMENT",
-			"isImageAvailable": false
+			"isImageAvailable": false,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "HUMAN RESOURCES MANAGEMENT",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "CONFLICT MANAGEMENT",
-			"isImageAvailable": false
+			"isImageAvailable": false,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "COMMUNICATIONS MANAGEMENT",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "RISK MANAGEMENT",
-			"isImageAvailable": false
+			"isImageAvailable": false,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "PROCURMENT MANAGEMENT",
-			"isImageAvailable": true
+			"isImageAvailable": true,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "STAKEHOLDER MANAGEMENT",
-			"isImageAvailable": false
+			"isImageAvailable": false,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		},
 		{
 			"name": "PROFESSIONAL RESPONSIBILITY",
-			"isImageAvailable": false
+			"isImageAvailable": false,
+			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html"
 		}
 	],
 	"externalResources": [{

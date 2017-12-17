@@ -1,6 +1,7 @@
 import React from 'react';
 import firebase from 'firebase';
 
+import { WebBrowser } from 'expo';
 import { Platform, StyleSheet, View, FlatList } from 'react-native';
 import { List, ListItem, Text, Icon } from 'native-base';
 
@@ -39,6 +40,7 @@ export default class FormulaScreen extends React.Component {
 
   _handleOnPress = (item) => {
     console.log(item.name);
+    WebBrowser.openBrowserAsync(item.url);
   };
 
   _renderItem = ({item}) => (
