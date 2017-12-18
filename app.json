@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "PMP Review Guide",
-    "description": "PMP Exam Quick Reference",
-    "slug": "pmp-review-guide",
+    "name": "PMP/CAPM Quick Reference",
+    "description": "Reference Guide 30 days before exam",
+    "slug": " Your 60 Minutes Review Guide",
     "privacy": "public",
     "sdkVersion": "22.0.0",
-    "version": "1.0.0",
+    "version": "1.1",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./assets/images/logo_white.png",
@@ -18,7 +18,7 @@
       "assetExts": ["ttf"]
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": "true"
     }
   }
 }
