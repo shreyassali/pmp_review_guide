@@ -19,6 +19,13 @@
     },
     "ios": {
       "supportsTablet": "true"
-    }
+    },
+    "share": "Share PMP/CAPM Review Guide with Friends",
+    "feedback": "Share your Feedback",
+    "review": "Review us on App Store",
+    "book": "PMP/CAPM Review Quick Reference",
+    "about": "About Us",
+    "pmi": "Apply to PMI",
+    "knowledgeareas": "Processes and Knowledge Areas"
   }
 }

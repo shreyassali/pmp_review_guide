@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionList, Image, StyleSheet, Text, View } from 'react-native';
-import { Constants } from 'expo';
-import { Linking } from 'react-native';
+import { Constants, WebBrowser } from 'expo';
+import { Linking, Alert } from 'react-native';
 
 export default class SettingsComponent extends React.Component {
   render()
@@ -12,36 +12,32 @@ export default class SettingsComponent extends React.Component {
     const sections =
     [
       {
-        data: [{value: manifest.sdkVersion}],
-        title: "sdkVersion"
+        data: [{value: manifest.book}],
+        title: "Get Review Guide"
       },
       {
-        data: [{value: manifest.version}],
-        title: "version"
+        data: [{value: manifest.about}],
+        title: "About Us"
       },
       {
-        data: [{value: manifest.orientation}],
-        title: "orientation"
+        data: [{value: manifest.share}],
+        title: "Share"
       },
       {
-        data: [{value: manifest.primaryColor,type: "color"}],
-        title: "primaryColor",
+        data: [{value: manifest.feedback}],
+        title: "Feedback"
       },
       {
-        data: [{value: manifest.splash && manifest.splash.image}],
-        title: "splash.image",
+        data: [{value: manifest.review}],
+        title: "Review"
       },
       {
-        data: [{value: manifest.splash && manifest.splash.backgroundColor, type: "color",}, ],
-        title: "splash.backgroundColor",
+        data: [{value: manifest.pmi}],
+        title: "PMI"
       },
       {
-        data: [{value: manifest.splash && manifest.splash.resizeMode,}, ],
-        title: "splash.resizeMode",
-      },
-      {
-        data: [{value: manifest.ios && manifest.ios.supportsTablet ? "true" : "false",}, ],
-        title: "ios.supportsTablet",
+        data: [{value: manifest.knowledgeareas}],
+        title: "PMP/CAPM KNowledge Areas"
       },
     ];
 
@@ -62,16 +58,39 @@ export default class SettingsComponent extends React.Component {
   };
 
   _handleOnPress = (item) => {
-    console.log("Shreyas");
-    Linking.openURL('mailto:somethingemail@gmail.com?subject=abcdefg&body=bodyPMPShreyas');
-    this.props.onPress && this.props.onPress();
-    //WebBrowser.openBrowserAsync(item.url);
+    const {
+        manifest
+    } = Constants;
+
+    console.log(item.value);
+    switch (item.value) {
+      case 'PMP/CAPM Review Quick Reference':
+        WebBrowser.openBrowserAsync("https://www.amazon.com/PMP-CAPM-Exam-Quick-Reference-ebook/dp/B074D68L3D");
+        break;
+      case 'About Us':
+        Alert.alert("PMP Version: "+manifest.version);
+        break;
+      case 'Share PMP/CAPM Review Guide with Friends':
+        Linking.openURL('mailto:somethingemail@gmail.com?subject=abcdefg&body=bodyPMPShreyas');
+        break;
+      case 'Share your Feedback':
+        Linking.openURL('mailto:somethingemail@gmail.com?subject=abcdefg&body=bodyPMPShreyas');
+        break;
+      case 'Review us on App Store':
+        WebBrowser.openBrowserAsync("www.google.com");
+        break;
+      case 'Apply to PMI':
+        WebBrowser.openBrowserAsync("https://www.pmi.org/certifications/types/project-management-pmp");
+        break;
+      case 'Processes and Knowledge Areas':
+        WebBrowser.openBrowserAsync("https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html");
+    }
   };
 
   _renderItem = ({item}) => {
       return (
         <SectionContent>
-          <Text style = {styles.sectionContentText} onPress={this._handleOnPress}>{item.value}</Text>
+          <Text style = {styles.sectionContentText} onPress={() => this._handleOnPress(item)}>{item.value}</Text>
         </SectionContent>
       );
     };
@@ -152,22 +171,24 @@ const styles = StyleSheet.create({
   },
   sectionHeaderContainer: {
       backgroundColor: '#fbfbfb',
-      paddingVertical: 8,
+      paddingVertical: 7,
       paddingHorizontal: 15,
       borderWidth: StyleSheet.hairlineWidth,
       borderColor: '#ededed',
   },
   sectionHeaderText: {
-      fontSize: 14,
+      fontSize: 15,
+      fontWeight: 'bold',
   },
   sectionContentContainer: {
-      paddingTop: 8,
-      paddingBottom: 12,
+      paddingTop: 15,
+      paddingBottom: 15,
       paddingHorizontal: 15,
   },
   sectionContentText: {
-      color: '#808080',
-      fontSize: 14,
+      fontSize: 15,
+      color: 'blue',
+      textDecorationLine:'underline',
   },
   nameText: {
       fontWeight: '600',
