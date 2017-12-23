@@ -44,7 +44,7 @@ export default class ReferencesScreen extends React.Component {
   _renderItem = ({item}) => (
         <List>
             <ListItem button onPress={() => this._handleOnPress(item)}>
-                <MaterialIcons name="question-answer" size={27} color="#8e6de3" />
+                <MaterialIcons name={item.icon_name} size={27} color="#8e6de3" />
                 <Text style={{paddingLeft: 10}}>{item.name}</Text>
             </ListItem>
        </List>
