@@ -3,55 +3,55 @@
 			"name": "PROJECT MANAGEMENT FRAMEWORK",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "list-box"
+			"icon_name": "ios-list-box"
 		},
 		{
 			"name": "KNOWLEDGE MANAGEMENT",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "bookmarks"
+			"icon_name": "ios-bookmarks"
 		},
 		{
 			"name": "INTEGRATION MANAGEMENT",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "infinite"
+			"icon_name": "md-cloud-upload"
 		},
 		{
 			"name": "SCOPE MANAGEMENT",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "list"
+			"icon_name": "md-list"
 		},
 		{
 			"name": "TIME MANAGEMENT",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "alarm"
+			"icon_name": "ios-alarm"
 		},
 		{
 			"name": "COST MANAGEMENT",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "usd"
+			"icon_name": "logo-usd"
 		},
 		{
 			"name": "QUALITY MANAGEMENT",
 			"isImageAvailable": false,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "ribbon"
+			"icon_name": "ios-ribbon"
 		},
 		{
 			"name": "HUMAN RESOURCES MANAGEMENT",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "people"
+			"icon_name": "ios-people"
 		},
 		{
 			"name": "CONFLICT MANAGEMENT",
 			"isImageAvailable": false,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "warning"
+			"icon_name": "ios-warning"
 		},
 		{
 			"name": "COMMUNICATIONS MANAGEMENT",
@@ -63,25 +63,25 @@
 			"name": "RISK MANAGEMENT",
 			"isImageAvailable": false,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "medkit"
+			"icon_name": "ios-medkit"
 		},
 		{
 			"name": "PROCURMENT MANAGEMENT",
 			"isImageAvailable": true,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "contract"
+			"icon_name": "md-contract"
 		},
 		{
 			"name": "STAKEHOLDER MANAGEMENT",
 			"isImageAvailable": false,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "contacts"
+			"icon_name": "ios-contacts"
 		},
 		{
 			"name": "PROFESSIONAL RESPONSIBILITY",
 			"isImageAvailable": false,
 			"url": "https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html",
-			"icon_name": "contact"
+			"icon_name": "ios-contact"
 		}
 	],
 	"externalResources": [{
