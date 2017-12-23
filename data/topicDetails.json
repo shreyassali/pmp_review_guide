@@ -97,104 +97,105 @@
 	},
 	{
 		"topic_id": 16,
-		"topic_name": "Knowledge area management plans",
-		"topic_description": "",
+		"topic_name": "Project selection",
+		"topic_description": "Project selection is part of an organization’s portfolio management process.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 17,
 		"topic_name": "knowledge area management plans",
-		"topic_description": "",
+		"topic_description": "1. Change Management Plan  2. Configuration Management Plan  3. Requirements Management Plan  4. Process Improvement management plan ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 18,
 		"topic_name": "Work authorization system",
-		"topic_description": "",
+		"topic_description": "Project management system to authorize start of work package or activity.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 19,
 		"topic_name": "Process of making changes",
-		"topic_description": "",
+		"topic_description": "Evaluate impact, identify options, get change requirements approval internally, get customer buy in. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 20,
 		"topic_name": "Change control system",
-		"topic_description": "",
+		"topic_description": "It means changes related to standardize forms, reports, processes, procedure.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 21,
 		"topic_name": "Configuration management system",
-		"topic_description": "",
+		"topic_description": "It means changes related to scope. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 22,
 		"topic_name": "Projects Chartered",
-		"topic_description": "",
+		"topic_description": "Projects are chartered to give the project manager the authority to act on behalf of the project sponsor or customer.
+Projects are chartered to solve a problem or seize an opportunity.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 23,
 		"topic_name": "Project Selection",
-		"topic_description": "",
+		"topic_description": "Project selection is part of an organization’s portfolio management process.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 24,
 		"topic_name": "Project Selection Methods",
-		"topic_description": "",
+		"topic_description": "1. Benefit measurement  2. Murder board  3. Peer review  4. Scoring model  4. Economic models ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 25,
 		"topic_name": "Economic models",
-		"topic_description": "",
+		"topic_description": "1.  Net Present Value (NPV) 2. Internal Rate of Return (IRR) 3. Payback Period 4. Cost Benefit Analysis",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 26,
 		"topic_name": "Payback Period",
-		"topic_description": "",
+		"topic_description": "Length of a time for an organization to recover its investment before it starts accumulating profit. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 27,
 		"topic_name": "SOW",
-		"topic_description": "",
+		"topic_description": "SOW created by customer or sponsor.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 28,
 		"topic_name": "Scoring models",
-		"topic_description": "",
+		"topic_description": "It is also known as weighted scoring models. It uses a common set of values to “score” each project’s worthiness.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 29,
 		"topic_name": "Benefit-Cost Ratios (BCRs)",
-		"topic_description": "",
+		"topic_description": "This model compares benefits to costs.  Consider a BCR of 4:1 versus another project of 2:5. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 30,
 		"topic_name": "Future Value (FV)",
-		"topic_description": "",
+		"topic_description": "How much is the Present value (PV) worth in the future?",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 31,
 		"topic_name": "Present Value",
-		"topic_description": "",
+		"topic_description": "How much will a future value be worth in today’s dollars?",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 32,
 		"topic_name": "Internal Rate of Return (IRR)",
-		"topic_description": "",
+		"topic_description": "Rate at which project inflows and outflows are equal",
 		"image_url": "none"
 	},
 	{
@@ -206,127 +207,127 @@
 	{
 		"topic_id": 34,
 		"topic_name": "Net Present Value",
-		"topic_description": "",
+		"topic_description": "An NPV greater than one is good, less than one is bad.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 35,
 		"topic_name": "Constrained Optimization Methods",
-		"topic_description": "",
+		"topic_description": "Complex formulas to determine a project’s worthiness to be selected;   1. Linear programming  2. Non-linear programming  3. Integer algorithms  4. Dynamic programming 5. Multi-objective programming ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 36,
 		"topic_name": "Product Scope",
-		"topic_description": "",
+		"topic_description": "Requirements related to product of the project.  It can also define as product deliverables with their associated features and functions.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 37,
 		"topic_name": "Project Scope",
-		"topic_description": "",
+		"topic_description": "Work project will do to deliver product it encompasses product scope, management activities (meeting/report), planning, and coordination.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 38,
 		"topic_name": "Requirement Traceability Matrix",
-		"topic_description": "",
+		"topic_description": "It helps to link the requirement to the objective and /or requirements to ensure strategic goals are accomplished.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 39,
 		"topic_name": "Define Scope",
-		"topic_description": "",
+		"topic_description": "Scope Statement = (project scope + product scope + deliverables + acceptance criteria + what is not part of the project + Assumption and constraints).",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 40,
 		"topic_name": "Change Control System",
-		"topic_description": "",
+		"topic_description": "Changes related to standardize forms, reports, processes, and procedure.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 41,
 		"topic_name": "Configuration Management System",
-		"topic_description": "",
+		"topic_description": "Changes related to scope. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 42,
 		"topic_name": "Work Breakdown Structure (WBS)",
-		"topic_description": "",
+		"topic_description": "Project team creates WBS. WBS does NOT show dependences. The WBS is a deliverables-oriented decomposition of the project scope.  Some activities are allowed in the WBS (for example, testing). The WBS can be based on a previous project and this is called a WBS template, also written as WBT.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 43,
-		"topic_name": "Define Scope",
-		"topic_description": "",
+		"topic_name": "Chart of Accounts",
+		"topic_description": "It is an accounting system to track project costs by category (labor, specific materials, and contractor rates).  A project’s chart of accounts works with the organization’s chart of accounts for specific deliverables, work, and/or materials.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 44,
 		"topic_name": "Scope Baseline",
-		"topic_description": "",
+		"topic_description": "It comprised of the project scope statement, the WBS, and the WBS Dictionary. Project team creates scope baseline.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 45,
 		"topic_name": "Code of Accounts",
-		"topic_description": "",
+		"topic_description": "It is a numbering system to identify the deliverables down to the work package within a WBS.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 46,
 		"topic_name": "WBS Dictionary",
-		"topic_description": "",
+		"topic_description": "Description of work to be done for each work package. The WBS dictionary defines all of the project deliverables, resources, cost and time estimates, and associated information for each work package.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 47,
 		"topic_name": "Lag",
-		"topic_description": "",
+		"topic_description": "Waiting time between activities (positive time)",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 48,
 		"topic_name": "Lead",
-		"topic_description": "",
+		"topic_description": "Activities are moved closer together or even overlap (negative time)",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 49,
 		"topic_name": "Crashing",
-		"topic_description": "",
+		"topic_description": "It means adding resources to reduce the project duration.  This adds costs to the project.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 50,
 		"topic_name": "Fast tracking",
-		"topic_description": "",
+		"topic_description": "It allows project phases to overlap to reduce the project duration.  This adds risk to the project. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 51,
 		"topic_name": "Free Float",
-		"topic_description": "",
+		"topic_description": "The amount of time an activity can be delayed without delaying the next activity’s start date.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 52,
 		"topic_name": "Total Float",
-		"topic_description": "",
+		"topic_description": "The amount of time an activity can be delayed without delaying the project’s end date.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 53,
 		"topic_name": "Float",
-		"topic_description": "",
+		"topic_description": "An opportunity to delay an activity.  It also called slack.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 54,
 		"topic_name": "Finish-to-start (FS)",
-		"topic_description": "",
+		"topic_description": "This relationship means Task A must complete before Task B can begin.  This is the most common relationship.",
 		"image_url": "none"
 	},
 	{
@@ -338,211 +339,217 @@
 	{
 		"topic_id": 56,
 		"topic_name": "Finish-to-finish (FF)",
-		"topic_description": "",
+		"topic_description": "This relationship means Task A must start before task B can start.  This relationship allows both activities to happen in tandem.",
+		"image_url": "none"
+	},
+	{
+		"topic_id": ,
+		"topic_name": "Start-to-finish (FF)",
+		"topic_description": "This relationship is unusual and is rarely used.  It requires Task A to start so that Task B may finish.  It is also known as just-in-time (JIT) scheduling. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 57,
 		"topic_name": "Three-point estimate",
-		"topic_description": "",
+		"topic_description": "This time estimate approach used three factors to predict the duration of each task.  The formula is (optimistic + most likely + pessimistic) divided by three.  It is an average of the three time factors for each activity. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 59,
 		"topic_name": "PERT",
-		"topic_description": "",
+		"topic_description": "This approach is weighted on the most likely estimate.  The formula is the optimistic, plus four times the most likely, plus the pessimistic; this sum is then divided by six.  I like to write this as (O + (4ML) + P)/6.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 60,
 		"topic_name": "Critical Chain",
-		"topic_description": "",
+		"topic_description": "This network diagramming approach is based on the availability of project resources to determine project completion.  It is more accurate than the traditional network diagram, but is more complex to create.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 61,
 		"topic_name": "Complete the Forward Pass",
-		"topic_description": "",
+		"topic_description": "The Early Start (ES) of the first task is one. The Early Finish (EF) is a task’s ES, plus the duration, minus one. The ES of the next task(s) will be the EF for the previous activity, plus one. The EF for the next task(s) equals its ES, plus the task duration, minus one. Use caution with predecessor activities; the EF with the largest value is carried forward. ",
+		"image_url": "none"
+	},
+	{
+		"topic_id": ,
+		"topic_name": "Complete the Backward Pass: ",
+		"topic_description": "Backward pass starts at the end of the project network diagram.  The Late Finish (LF) for the last activity in the project network diagram equals its EF value.  The Late Start (LS) is calculated by subtracting the duration of the activity from its LF, plus one. The next predecessor activity’s LF equals the LS of the successor activity minus one. The LS is again calculated by subtracting the task’s duration from the task’s LF, plus one.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 62,
 		"topic_name": "Variable Costs",
-		"topic_description": "",
+		"topic_description": "The cost of the deliverable, service, or materials can fluctuate based on varying factors.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 63,
 		"topic_name": "Fixed Costs",
-		"topic_description": "",
+		"topic_description": "It is a constant “fixed” cost throughout the project. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 64,
 		"topic_name": "Indirect Costs",
-		"topic_description": "",
+		"topic_description": "An expense that can be shared with other projects or the organization, such as rent, phone, or equipment.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 65,
 		"topic_name": "Direct Costs",
-		"topic_description": "",
+		"topic_description": "Costs that are directly tied to the project.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 66,
 		"topic_name": "Sunk Costs",
-		"topic_description": "",
+		"topic_description": "Sunk Costs are monies that have been invested into a project.  Sunk costs are gone; they are “sunk” into a project. Cost that has incurred and it can’t be recovered. Sunk cost should not be consider when deciding whether to continue with trouble project or not.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 67,
 		"topic_name": "An Opportunity Cost",
-		"topic_description": "",
+		"topic_description": "An Opportunity Cost is the amount of an opportunity that is given up. Consider, project A is worth $55,000 and project B is worth $89,000, you’d choose project B to do.  The opportunity is $55,000 – the amount of project ‘A’ that you can’t do because of the opportunity of project ‘B’.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 68,
 		"topic_name": "Rough Order of Magnitude",
-		"topic_description": "",
+		"topic_description": "Rough Order of Magnitude: Simple, early estimate.  Range of variance is -25% to +75% for the project completion.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 69,
 		"topic_name": "Budget Estimate",
-		"topic_description": "",
+		"topic_description": "Early planning estimate and / or top-down approach.  Range of variance is -10% to +25% for the project completion.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 70,
 		"topic_name": "Definitive Estimate",
-		"topic_description": "",
+		"topic_description": "Most accurate estimate, but takes longest to complete; uses the bottom-up approach.  Range of variance is -5% to +10% for the project completion.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 71,
 		"topic_name": "Bottom-up",
-		"topic_description": "",
+		"topic_description": "Requires a WBS and accounts for each work package chart of accounts.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 72,
 		"topic_name": "Analogous",
-		"topic_description": "",
+		"topic_description": "Creates an analogy between projects; also known as a top-down estimate.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 73,
 		"topic_name": "Parametric",
-		"topic_description": "",
+		"topic_description": "Uses a parameter (cost per ton, cost per unit) for the estimate.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 74,
 		"topic_name": "EVM Rules",
-		"topic_description": "",
+		"topic_description": "1. Always start with earned value  2. Variance means subtraction  3. Indexes are “something” divided by “something” and they show performance for the project objectives.  4. However, when it comes to any index, the closer to 1 the better  5. Variances can be positive or negative ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 75,
 		"topic_name": "Heuristic",
-		"topic_description": "",
+		"topic_description": "Heuristic is rule of thumb example cost per line of code, cost / sq. foot",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 76,
 		"topic_name": "FMEA",
-		"topic_description": "",
+		"topic_description": "FMEA: Failure mode and effect analysis (Find the details in Quality chapter) ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 77,
 		"topic_name": "Earned Value Management",
-		"topic_description": "",
+		"topic_description": "BAC = Total Budget, Budget at Completion",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 78,
 		"topic_name": "Cost of quality",
-		"topic_description": "",
+		"topic_description": "Cost of quality is the cost to achieve the expected quality on a project. Considering a cost of training, safety, and materials (It is part of the Cost of Quality)",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 79,
 		"topic_name": "Cost of poor quality",
-		"topic_description": "",
+		"topic_description": "Cost of poor quality, also known as the cost of nonconformance to quality, is the cost of not achieving quality: re-work loss of life or limb, loss of sales. Don’t change your answers.  Most people change correct answers to wrong answers.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 80,
 		"topic_name": "80-20 Rule",
-		"topic_description": "",
+		"topic_description": "80-20 Rule relate how small you breakdown work packages in work breakdown structure Arbitrator is skilled third party",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 81,
 		"topic_name": "Consensus management",
-		"topic_description": "",
+		"topic_description": "Consensus management is always related to time because it takes time to make decision as you have to take everyone’s opinion. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 82,
 		"topic_name": "Quality",
-		"topic_description": "",
+		"topic_description": "Quality: degree to which project fulfills requirements",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 83,
 		"topic_name": "Theorists",
-		"topic_description": "",
+		"topic_description": "1. Joseph Turan invented 80/20 principle  2. W Edwards Deming: 14pt Quality Management (Plan-Do-Check-Act)  3. Philip Crosby: Concept of cost of poor quality and zero defect ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 84,
 		"topic_name": "Marginal Analysis",
-		"topic_description": "",
+		"topic_description": "Benefit or revenue to be received from improving quality equals incremental cost to achieve that quality.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 85,
 		"topic_name": "JIT (Just in Time)",
-		"topic_description": "",
+		"topic_description": "Supplier delivers raw material when needed. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 86,
-		"topic_name": "Change control system",
-		"topic_description": "",
-		"image_url": "none"
-	},
-	{
-		"topic_id": 87,
-		"topic_name": "Knowledge area management plans",
-		"topic_description": "",
+		"topic_name": "Cost of quality",
+		"topic_description": "Project Manager is not spending too much to achieve particular level of quality.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 88,
 		"topic_name": "IMPACT of poor quality",
-		"topic_description": "",
+		"topic_description": "Increased cost, decreased profit, low morale, low customer satisfaction, increased risk, Rework, and schedule delays",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 89,
 		"topic_name": "Pareto Diagram",
-		"topic_description": "",
+		"topic_description": "1. Helps focus attention on most critical issue.  2. Prioritize potential causes of the problems.  3. Separate critical few from uncritical many. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 90,
 		"topic_name": "Scatter Diagram",
-		"topic_description": "",
+		"topic_description": "Tracks 2 variables to determine their relationship. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 91,
 		"topic_name": "Statistical Sampling",
-		"topic_description": "",
+		"topic_description": "Sample size and frequency of measurement are determined as plan a management process. Actual sampling is done in control quality.",
 		"image_url": "none"
 	},
 	{
@@ -866,133 +873,133 @@
 	{
 		"topic_id": 145,
 		"topic_name": "Contracts",
-		"topic_description": "",
+		"topic_description": "An offer and consideration contracts are backed by the court system.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 146,
 		"topic_name": "Cost reimbursable contracts",
-		"topic_description": "",
+		"topic_description": "Risk is with the buyer as the buyer pays for cost of overruns.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 147,
 		"topic_name": "Fixed-price (lump-sum contracts)",
-		"topic_description": "",
+		"topic_description": "Risk is with the seller as seller pays for cost overruns.  Detail specification knows what to do.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 148,
 		"topic_name": "Time and materials contract",
-		"topic_description": "",
+		"topic_description": "Buyer pays for the time and materials of the vendor. It must have a not-to-exceed (NTE) clause.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 148,
 		"topic_name": "Purchase order",
-		"topic_description": "",
+		"topic_description": "A unilateral form of a contract.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 149,
 		"topic_name": "Letter of intent",
-		"topic_description": "",
+		"topic_description": "The buyer tells the vendor they intend to do business with them, not a binding agreement.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 150,
 		"topic_name": "Letter contract",
-		"topic_description": "",
+		"topic_description": "Generally short-term purchase used as a stopgap or emergency response.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 151,
 		"topic_name": "Bidder conference",
-		"topic_description": "",
+		"topic_description": "Vendors all meet with the buyer to discuss the details of the statement of work so they may prepare a bid, quote, or proposal.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 152,
 		"topic_name": "Statement of Work and Buyer",
-		"topic_description": "",
+		"topic_description": "The buyer creates a statement of work (SOW) with an invitation for bid (IFB), request for quote (RFQ), or request for proposal (RFP) for the vendors.  (IFBs and RFQs both want just a price; a proposal wants ideas) ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 153,
-		"topic_name": "A bidder conference",
-		"topic_description": "",
+		"topic_name": "A bidder conference process",
+		"topic_description": "A bidder conference allows sellers to ask questions about the SOW.  The buyer may create an updated SOW to give back to the sellers that attended the bidder conference. Sellers respond with a bid, quote or proposal. The buyer completes seller selection and creates a contract. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 154,
 		"topic_name": "Decentralized contracting",
-		"topic_description": "",
+		"topic_description": "Decentralized contracting is done by the PM; centralized contracting is done with a purchasing agent or through a central procurement office.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 155,
 		"topic_name": "Stakeholder Analysis",
-		"topic_description": "",
+		"topic_description": "This is a three-step process of identifying the project stakeholders early in the project, identify the impact/support of each stakeholder, and then plan how to influence stakeholders to act in given situations.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 156,
 		"topic_name": "Stakeholder Register",
-		"topic_description": "",
+		"topic_description": "Documents stakeholder identification, assessment of influence, and stakeholder type.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 157,
 		"topic_name": "Stakeholder Classification Models",
-		"topic_description": "",
+		"topic_description": "These are grids to plot out stakeholder power, influence and interest in the project.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 158,
 		"topic_name": "Stakeholder Classification - Power / Interest grid",
-		"topic_description": "",
+		"topic_description": "How much power/interest do the stakeholders have? ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 159,
 		"topic_name": "Stakeholder Classification - Power / Influence grid",
-		"topic_description": "",
+		"topic_description": "How much power / influence do the stakeholder have? ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 160,
 		"topic_name": "Stakeholder Classification - Influence / Impact grid",
-		"topic_description": "",
+		"topic_description": "How much influence (involvement of decisions) and impact on project change do the stakeholders have? ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 161,
 		"topic_name": "Salience model",
-		"topic_description": "",
+		"topic_description": "Classifies stakeholders based on power, urgency, and legitimacy for the project. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 162,
 		"topic_name": "Responsibility",
-		"topic_description": "",
+		"topic_description": "Make decision based on best intestate of the company rather than your own. Only accept assignment you are qualified to complete protect proprietary information. Report unethical behavior and violations",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 163,
 		"topic_name": "Respect",
-		"topic_description": "",
+		"topic_description": "Maintain attitude of mutual co-operation, Respect cultural difference. Engage in good faith Negotiations. Be direct dealing with conflicts. Do not use your power or position to influence other for your benefits.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 164,
 		"topic_name": "Fairness",
-		"topic_description": "",
+		"topic_description": "Act impartially without bribery, continuously looking for conflict of interest and disclose them. Do not discriminate against others; do not use your position for personal or business gain.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 165,
 		"topic_name": "Honesty",
-		"topic_description": "",
+		"topic_description": "Try to understand the truth. Be truthful in all communication and create that environment.",
 		"image_url": "none"
 	}
 ]

@@ -71,7 +71,7 @@ export default class SettingsComponent extends React.Component {
         Alert.alert("PMP Version: "+manifest.version);
         break;
       case 'Share PMP/CAPM Review Guide with Friends':
-        Linking.openURL('mailto:somethingemail@gmail.com?subject=abcdefg&body=bodyPMPShreyas');
+        Linking.openURL('mailto:somethingemail@gmail.com?subject=PMP/CAPM Quick Reference &body=bodyPMPShreyas');
         break;
       case 'Share your Feedback':
         Linking.openURL('mailto:somethingemail@gmail.com?subject=abcdefg&body=bodyPMPShreyas');
