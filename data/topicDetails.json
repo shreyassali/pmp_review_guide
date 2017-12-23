@@ -759,115 +759,115 @@ Projects are chartered to solve a problem or seize an opportunity.",
 	{
 		"topic_id": 126,
 		"topic_name": "Monte Carlo analysis",
-		"topic_description": "",
+		"topic_description": "It uses computer software to simulate outcome of the project. It helps to deal with path convergence.  It is used as a risk management tool to quantitatively analyze risks",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 127,
 		"topic_name": "Resource Histogram",
-		"topic_description": "",
-		"image_url": "none"
-	},
-	{
-		"topic_id": 128,
-		"topic_name": "Change control system",
-		"topic_description": "",
+		"topic_description": "It allows project manager to determine how many resources are used in a given month on a project. (Number of Resources used per time period)",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 129,
 		"topic_name": "Avoidance",
-		"topic_description": "",
+		"topic_description": "Avoid the risk. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 130,
 		"topic_name": "Mitigation",
-		"topic_description": "",
+		"topic_description": "Reduce the probability or impact of the risk event. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 131,
 		"topic_name": "Acceptance",
-		"topic_description": "",
+		"topic_description": "The risk may be small so the risk may be accepted. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 132,
 		"topic_name": "Transference",
-		"topic_description": "",
+		"topic_description": "The ownership of the risk is transferred to some other party. Usually for a fee. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 133,
 		"topic_name": "Exploit",
-		"topic_description": "",
+		"topic_description": "A positive risk that a project wants to take advantage of. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 134,
 		"topic_name": "Share",
-		"topic_description": "",
+		"topic_description": "A positive risk that can be shared with the organization or other projects. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 135,
 		"topic_name": "Enhance",
-		"topic_description": "",
+		"topic_description": "A response that ensures that a positive risk will likely happen. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 136,
 		"topic_name": "Contingency Fund",
-		"topic_description": "",
+		"topic_description": "An amount of funds used to offset a project’s risks. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 137,
 		"topic_name": "Secondary risks",
-		"topic_description": "",
+		"topic_description": "A risk response creates another risk. ",
+		"image_url": "none"
+	},
+	{
+		"topic_id": 137,
+		"topic_name": "Residual risks ",
+		"topic_description": "A risk response may create small generally accepted risks.  ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 138,
 		"topic_name": "Triggers",
-		"topic_description": "",
+		"topic_description": "Condition, event, or warning sign that a risk is about to happen. Usually “triggers” a risk response. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 139,
 		"topic_name": "Positive risk",
-		"topic_description": "",
+		"topic_description": "Risks with a negative impact. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 140,
 		"topic_name": "Pure risk",
-		"topic_description": "",
+		"topic_description": "Only offers a negative impact (injury, fire, theft, destruction). ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 141,
 		"topic_name": "Business risk",
-		"topic_description": "",
+		"topic_description": "Risks that can offer an upside or a downside (both positive and/or negative impacts).  Investing in a project is a business risk. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 142,
 		"topic_name": "Qualitative analysis",
-		"topic_description": "",
+		"topic_description": "Qualifying the risks for their legitimacy.  This is a very quick, subjective approach.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 143,
 		"topic_name": "Quantitative analysis",
-		"topic_description": "",
+		"topic_description": "Quantifies the risk exposure based on evidence, research, and in-depth analysis of the risk events.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 144,
 		"topic_name": "Utility function",
-		"topic_description": "",
+		"topic_description": "A person’s or organization’s willingness to accept risk.  Relative to the project priority as high-priority projects are typically risk adverse.  It is also known as risk tolerance.",
 		"image_url": "none"
 	},
 	{
