@@ -8,9 +8,9 @@
     "version": "1.1",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
-    "icon": "./assets/images/logo_white.png",
+    "icon": "./assets/images/icon.png",
     "splash": {
-      "image": "./assets/images/book.png",
+      "image": "./assets/images/splashScreen.png",
       "resizeMode": "contain",
       "backgroundColor": "#555555"
     },
