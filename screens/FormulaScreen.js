@@ -4,6 +4,8 @@ import firebase from 'firebase';
 import { WebBrowser } from 'expo';
 import { Platform, StyleSheet, View, FlatList } from 'react-native';
 import { List, ListItem, Text, Icon } from 'native-base';
+import { Ionicons } from '@expo/vector-icons';
+
 
 import Banner from '../components/Banner';
 
@@ -46,7 +48,8 @@ export default class FormulaScreen extends React.Component {
   _renderItem = ({item}) => (
     <List>
         <ListItem button onPress={() => this._handleOnPress(item)}>
-            <Text>{item.name}</Text>
+          <Ionicons name={item.icon_name} size={27} color="#8e6de3" />
+          <Text style={{paddingLeft: 10}}>{item.name}</Text>
         </ListItem>
    </List>
   );
