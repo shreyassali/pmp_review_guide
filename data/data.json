@@ -73,42 +73,42 @@
 	"externalResources": [{
 			"name": "Top 5 PMP Books",
 			"url": "https://www.whizlabs.com/blog/best-pmp-certification-books-2016-top-5-pmp-certification-books/",
-			"icon-name": "book"
+			"icon_name": "book"
 		},
 		{
 			"name": "PMP-Free-Resources",
 			"url": "http://www.pmstudy.com/PMP-Free-Resources.asp",
-			"icon-name": "ios-bookmarks"
+			"icon_name": "ios-bookmarks"
 		},
 		{
 			"name": "Top PMP-Exam-Simulator",
 			"url": "http://www.pm-exam-simulator.com/articles/38-my-top-10-recommended-web-sites-for-free-pmp-exam-sample-questions-for-your-pmp-exam-prep",
-			"icon-name": "question-answer"
+			"icon_name": "question-answer"
 		},
 		{
 			"name": "Prep Cast",
 			"url": "https://www.project-management-prepcast.com/pmp-practice-exam-questions-sample-test",
-			"icon-name": "assignment"
+			"icon_name": "assignment"
 		},
 		{
 			"name": "PMP Exam for Free",
 			"url": "http://pmpexamforfree.com/",
-			"icon-name": "assignment"
+			"icon_name": "assignment"
 		},
 		{
 			"name": "PMP Exam Questions",
 			"url": "http://206-free-pmp-exam-questions.blogspot.com/",
-			"icon-name": "question-answer"
+			"icon_name": "question-answer"
 		},
 		{
 			"name": "3500+ PMP Practice Questions",
 			"url": "http://www.justgetpmp.com/2013/05/999-free-pmp-exam-practice-questions.html",
-			"icon-name": "question-answer"
+			"icon_name": "question-answer"
 		},
 		{
 			"name": "Easy PM Guide",
 			"url": "http://easypmguide.com/free-pmp-sample-questions-and-pmp-practice-exam-questions/",
-			"icon-name": "md-document"
+			"icon_name": "md-document"
 		}
 	]
 }
