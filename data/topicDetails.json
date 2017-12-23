@@ -555,25 +555,25 @@ Projects are chartered to solve a problem or seize an opportunity.",
 	{
 		"topic_id": 92,
 		"topic_name": "Expert",
-		"topic_description": "",
+		"topic_description": "The authority of the project manager comes from experience with the technology the project focuses on. (Earned on your own)",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 93,
 		"topic_name": "Reward",
-		"topic_description": "",
+		"topic_description": "The project manager has the authority to reward the project team.  Next best based PM position.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 94,
 		"topic_name": "Formal",
-		"topic_description": "",
+		"topic_description": "The project Manager has been assigned by senior management and is in charge of the project. It is also known as positional power.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 95,
 		"topic_name": "Referent",
-		"topic_description": "",
+		"topic_description": "The project team personally has known the project manager. Referent can also mean the project manager refers to the person who assigned him the position.",
 		"image_url": "none"
 	},
 	{
@@ -585,175 +585,175 @@ Projects are chartered to solve a problem or seize an opportunity.",
 	{
 		"topic_id": 97,
 		"topic_name": "Coercive",
-		"topic_description": "",
+		"topic_description": "The project manager has the authority to discipline the project team members.  This is also  known as “penalty power ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 98,
 		"topic_name": "Maslow’s Hierarchy of Needs",
-		"topic_description": "",
+		"topic_description": "Maslow believed that we have five needs; we’re on a quest to satisfy these needs.  The needs are, from the bottom up.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 99,
 		"topic_name": "Maslow’s Hierarchy - Physiological",
-		"topic_description": "",
+		"topic_description": "We need air, food, clothing, and shelter.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 100,
 		"topic_name": "Maslow’s Hierarchy - Safety",
-		"topic_description": "",
+		"topic_description": "We need safety and security.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 101,
 		"topic_name": "Maslow’s Hierarchy - Social",
-		"topic_description": "",
+		"topic_description": "We need friends, approval, and love. ",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 102,
 		"topic_name": "Maslow’s Hierarchy - Esteem",
-		"topic_description": "",
+		"topic_description": "We need respect, appreciation, and approval.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 103,
 		"topic_name": "Maslow’s Hierarchy - Self-actualization",
-		"topic_description": "",
+		"topic_description": "We need personal growth, knowledge, and fulfillment.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 104,
 		"topic_name": "Herzberg’s Theory of Motivation",
-		"topic_description": "",
+		"topic_description": "There are hygiene agents and motivating agents.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 105,
 		"topic_name": "Herzberg’s Theory of Motivation - Hygiene Agents",
-		"topic_description": "",
+		"topic_description": "Hygiene Agents are expectations for employment: paycheck, insurance, safe working environment.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 106,
 		"topic_name": "Herzberg’s Theory of Motivation - Motivating agents",
-		"topic_description": "",
+		"topic_description": "Motivating agents are motivators for employees such as bonuses, career advancement, and opportunity to grow. Hygiene agents will not motivate, but their absence will de-motivate.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 107,
 		"topic_name": "Halo Effect",
-		"topic_description": "",
+		"topic_description": "Halo Effect: All opinions are formed by one component. A great engineer doesn’t always make a great project manager.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 108,
 		"topic_name": "Parkinson’s Law",
-		"topic_description": "",
+		"topic_description": "Parkinson’s Law: Individuals allow their work to consume all of their time.  Work will expand to fill the amount of time allotted to it.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 109,
 		"topic_name": "McGregor’s X and Y",
-		"topic_description": "",
+		"topic_description": "Management’s perspective of employees is X people are bad, lazy, and need to be micromanaged.  Y people are self-directed.  Most managers have X and Y attributes.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 110,
 		"topic_name": "Ouchi’s Theory Z",
-		"topic_description": "",
+		"topic_description": "Workers do well if motivated.  This provides participative management, familial work environment, and lifelong employment. It is known as Japanese Management Style.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 111,
 		"topic_name": "McClelland’s Theory of Needs",
-		"topic_description": "",
+		"topic_description": "Needs are acquired over time and are shaped by life experiences.  Our needs are categorized as achievement, affiliation, and power.  McClelland used a Thematic Apperception Test (TAT) to determine an individual’s needs.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 112,
 		"topic_name": "Vroom’s Expectancy Theory",
-		"topic_description": "",
+		"topic_description": "People behave based on what they believe (expect) their behavior to bring them.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 113,
 		"topic_name": "PMI HR Terms: Role",
-		"topic_description": "",
+		"topic_description": "This person is accountable by the title they possess (network engineer, business analyst)",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 114,
 		"topic_name": "PMI HR Terms: Responsibility",
-		"topic_description": "",
+		"topic_description": "The owner of the assigned work is accountable for the work.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 115,
 		"topic_name": "PMI HR Terms: Authority",
-		"topic_description": "",
+		"topic_description": "Based on organizational structure; autonomy to make decisions, approvals and manage resources.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 116,
 		"topic_name": "Problem Solving",
-		"topic_description": "",
+		"topic_description": "Both parties work together for the good confronting of the project in a spirit of problem solving. It is also known as confronting. This is a win-win solution. It is also known as “Collaborating”.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 117,
 		"topic_name": "Compromising",
-		"topic_description": "",
+		"topic_description": "Both parties give up something, often in a heated scenario.  This is a lose-lose solution. It is also known as Reconciling.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 118,
 		"topic_name": "Forcing",
-		"topic_description": "",
+		"topic_description": "One party quickly forces their solution over another.  It is often done by seniority. This is a win-lose solution. It is also known as Directing.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 119,
 		"topic_name": "Withdrawal",
-		"topic_description": "",
+		"topic_description": "Withdrawal (also known as avoidance or postpone solution): One party leaves the discussion. This is a yield-lose solution. (Avoidance)",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 120,
 		"topic_name": "Smoothing",
-		"topic_description": "",
+		"topic_description": "The differences of the problems are down-played. This is a delay and is lose-lose solution. Accommodating downplays appear less important than actually it is.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 121,
 		"topic_name": "Communication channels",
-		"topic_description": "",
+		"topic_description": "Communication channels formula: N (N-1)/2  N: represents the number of stakeholders Usually 55% of communication is nonverbal.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 122,
 		"topic_name": "Para-lingual",
-		"topic_description": "",
+		"topic_description": "The pitch, tone, inflection of the speaker that affects the content of the message.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 123,
 		"topic_name": "Effective listening",
-		"topic_description": "",
+		"topic_description": "Watching the speaker’s body language, interpreting Para-lingual clues, asking questions for clarity, and offering feedback helps interpreting the message in a correct way.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 124,
 		"topic_name": "Active Listening",
-		"topic_description": "",
+		"topic_description": "It is nothing but participating in the conversation through verbal and nonverbal signs of message receipt. Messages are transmitted; knowledge is transferred. Acknowledgment of a message doesn’t mean acceptance of the message.",
 		"image_url": "none"
 	},
 	{
 		"topic_id": 125,
 		"topic_name": "Communications management plan",
-		"topic_description": "",
+		"topic_description": "The communications management plan defines who needs what information, when they need it, and in the specified modality.",
 		"image_url": "none"
 	},
 	{
