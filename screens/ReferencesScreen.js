@@ -40,12 +40,12 @@ export default class ReferencesScreen extends React.Component {
   _handleOnPress = (item) => {
     WebBrowser.openBrowserAsync(item.url);
   };
-  
+
   _renderItem = ({item}) => (
         <List>
             <ListItem button onPress={() => this._handleOnPress(item)}>
                 <MaterialIcons name="question-answer" size={27} color="#8e6de3" />
-                <Text>{item.name}</Text>
+                <Text style={{paddingLeft: 10}}>{item.name}</Text>
             </ListItem>
        </List>
   );
