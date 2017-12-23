@@ -12,9 +12,7 @@ export default class SettingsScreen extends React.Component {
   });
   render() {
     return (
-      <ScrollView style={{ flex: 1 }} contentInsetAdjustmentBehavior="automatic">
-           <SettingsComponent />
-      </ScrollView>
+      <SettingsComponent />
     );
   }
 }
