@@ -1,31 +1,30 @@
 {
-  "expo": {
-    "name": "PMP/CAPM Quick Reference",
-    "description": "Reference Guide 30 days before exam",
-    "slug": " Your 60 Minutes Review Guide",
-    "privacy": "public",
-    "sdkVersion": "22.0.0",
-    "version": "1.1",
-    "orientation": "portrait",
-    "primaryColor": "#cccccc",
-    "icon": "./assets/images/icon.png",
-    "splash": {
-      "image": "./assets/images/splashScreen.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#555555"
-    },
-    "packagerOpts": {
-      "assetExts": ["ttf"]
-    },
-    "ios": {
-      "supportsTablet": "true"
-    },
-    "share": "Share PMP/CAPM Review Guide with Friends",
-    "feedback": "Share your Feedback",
-    "review": "Review us on App Store",
-    "book": "PMP/CAPM Review Quick Reference",
-    "about": "About Us",
-    "pmi": "Apply to PMI",
-    "knowledgeareas": "Processes and Knowledge Areas"
-  }
+	"expo": {
+		"name": "PMP/CAPM Quick Reference",
+		"description": "Reference Guide 30 days before exam",
+		"slug": "Your 60 Minutes Review Guide",
+		"privacy": "public",
+		"sdkVersion": "22.0.0",
+		"version": "1.1",
+		"orientation": "portrait",
+		"primaryColor": "#cccccc",
+		"icon": "./assets/images/icon.png",
+		"splash": {
+			"image": "./assets/images/splashScreen.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"packagerOpts": {
+			"assetExts": ["ttf"]
+		},
+		"ios": {
+			"supportsTablet": "true"
+		},
+		"share": "Share with friends",
+		"feedback": "Share your feedback",
+		"book": "PMP/CAPM Quick Reference",
+		"about": "About Us",
+		"pmi": "Apply to PMI",
+		"knowledgeareas": "Processes and Knowledge Areas"
+	}
 }
