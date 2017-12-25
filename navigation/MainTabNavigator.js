@@ -22,10 +22,6 @@ export default TabNavigator(
           Desceiption: {screen: TopicDescriptionScreen,
             navigationOptions: ({ navigation }) => ({
               headerLeft: ( <Button iconLeft transparent primary onPress={() => navigation.goBack()}>
-                              <Ionicons size={28}
-                                color= '#307be1'
-                                style={{ marginLeft: 10, marginRight:1 }}
-                                name='ios-arrow-back-outline' />
                               <Text>Back</Text>
                             </Button>
                           ),

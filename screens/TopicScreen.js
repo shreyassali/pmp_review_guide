@@ -14,7 +14,6 @@ class TopicScreen extends React.Component {
   };
 
   static navigationOptions = ({ navigation }) => ({
-    //title: this.state.chapterName,
     headerLeft: ( <Button iconLeft transparent primary onPress={() => navigation.goBack()}>
                     <Text>Back</Text>
                   </Button>
@@ -59,6 +58,11 @@ class TopicScreen extends React.Component {
     console.log(this.state.chapterName);
     return (
       <View style={{ flex: 1, backgroundColor: 'white' }} contentInsetAdjustmentBehavior="automatic">
+        <List>
+          <ListItem itemDivider>
+          <Text style={styles.chapterheader}>{this.state.chapterName}</Text>
+          </ListItem>
+        </List>
         <FlatList
           data={this.state.chapter}
           keyExtractor={this._keyExtractor}
@@ -69,3 +73,12 @@ class TopicScreen extends React.Component {
 }
 
 export default TopicScreen;
+
+const styles = StyleSheet.create({
+  chapterheader: {
+      flex: 1,
+      textAlign: 'center',
+      fontSize: 17,
+      fontWeight: 'bold',
+  },
+});

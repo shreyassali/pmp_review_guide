@@ -10,7 +10,7 @@ export default class DescriptionCard extends React.Component {
         <Content>
           <Card style={styles.containerStyle}>
             <CardItem header>
-              <Text>{this.props.name}</Text>
+              <Text style={styles.topicheader}>{this.props.name}</Text>
             </CardItem>
             <CardItem>
               <Body>
@@ -29,7 +29,6 @@ export default class DescriptionCard extends React.Component {
     }
 }
 
-
 const styles = StyleSheet.create ({
   containerStyle: {
       marginTop: 12,
@@ -41,5 +40,10 @@ const styles = StyleSheet.create ({
       alignItems: 'center',
       justifyContent: 'center',
       flex: 0,
+  },
+  topicheader: {
+      textAlign: 'center',
+      fontSize: 17,
+      fontWeight: 'bold',
   },
 });
