@@ -54,7 +54,7 @@ export default class SettingsComponent extends React.Component {
   _keyExtractor = (item, index) => index;
 
   _handleOnPress = (item) => {
-    let emailBodyStr = "I just downloaded PMP/CAPM Quick Reference app on my phone. It is a smartphone app and it will let you review the PMP certificate Exam concepts. Please download it if you have smart phone."
+    let emailBodyStr = "I just downloaded PMP/CAPM Quick Reference app on my phone. It is a smartphone app and it will let you review the PMP/CAPM certificate Exam concepts. Please download it if you have smart phone.";
 
     const {
         manifest
@@ -76,10 +76,10 @@ export default class SettingsComponent extends React.Component {
         WebBrowser.openBrowserAsync("https://www.pmi.org/certifications/types/project-management-pmp");
         break;
       case 'How to use this App?':
-        WebBrowser.openBrowserAsync("https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html");
+        WebBrowser.openBrowserAsync("https://pmpguide-b8d72.firebaseapp.com/how_to_use.html");
         break;
       case 'Processes and Knowledge Areas':
-        WebBrowser.openBrowserAsync("https://pmpguide-b8d72.firebaseapp.com/project_mgmt_framework.html");
+        WebBrowser.openBrowserAsync("https://pmpguide-b8d72.firebaseapp.com/process_knowledge_area.html");
     }
   };
 
