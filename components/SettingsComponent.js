@@ -8,33 +8,40 @@ import { List, ListItem, Left, Body, Right } from 'native-base';
 export default class SettingsComponent extends React.Component {
   render()
   {
+    let share = "Share with friends";
+		let feedback = "Share your feedback";
+		let book = "PMP/CAPM Quick Reference";
+		let about = "About Us";
+		let pmi = "Apply to PMI";
+		let knowledgeareas = "Processes and Knowledge Areas";
+
     const {
         manifest
     } = Constants;
     const sections =
     [
       {
-        data: [{value: manifest.book, icon: "ios-bookmarks"}],
+        data: [{value: book, icon: "ios-bookmarks"}],
         title: "Get Review Guide"
       },
       {
-        data: [{value: manifest.about, icon: "ios-information-circle"}],
+        data: [{value: about, icon: "ios-information-circle"}],
         title: "About Us"
       },
       {
-        data: [{value: manifest.share, icon: "md-share"}],
+        data: [{value: share, icon: "md-share"}],
         title: "Share"
       },
       {
-        data: [{value: manifest.feedback, icon: "ios-chatbubbles"}],
+        data: [{value: feedback, icon: "ios-chatbubbles"}],
         title: "Feedback"
       },
       {
-        data: [{value: manifest.pmi, icon: "ios-bookmarks"}],
+        data: [{value: pmi, icon: "ios-bookmarks"}],
         title: "PMI"
       },
       {
-        data: [{value: manifest.knowledgeareas, icon: "ios-open"}],
+        data: [{value: knowledgeareas, icon: "ios-open"}],
         title: "PMP/CAPM Knowledge Areas"
       },
       {
@@ -64,7 +71,7 @@ export default class SettingsComponent extends React.Component {
         WebBrowser.openBrowserAsync("https://www.amazon.com/PMP-CAPM-Exam-Quick-Reference-ebook/dp/B074D68L3D");
         break;
       case 'About Us':
-        Alert.alert(manifest.name + " AppVersion # " + manifest.version);
+        Alert.alert(manifest.name + "\n AppVersion # " + manifest.version + "\n © 2018 AppStack Inc.");
         break;
       case 'Share with friends':
         Linking.openURL('mailto:?subject=PMP/CAPM Quick Reference &body='+emailBodyStr);
